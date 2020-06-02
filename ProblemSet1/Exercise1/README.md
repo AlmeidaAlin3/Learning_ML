@@ -8,10 +8,12 @@ of the two probabilistic linear classifiers. First, a discriminative linear clas
 **Gaussian discriminant analysis** (GDA). Both the algorithms find a linear decision boundary that separates the data into two classes, but make different assumptions.  
 
 &nbsp;  
-**1.a)** Given J(θ), the average empirical loss for logistic regression, the [solution of question 1.a]() shows that the Hessian matrix of J(θ) is **positive semidefinite**; this implies that J(θ) is convex and has no local minima other than global one.  
+**1.a)**  
+Given J(θ), the average empirical loss for logistic regression, the [solution of question 1.a]() shows that the Hessian matrix of J(θ) is **positive semidefinite**; this implies that J(θ) is convex and has no local minima other than global one.  
 
 &nbsp;  
-**1.b)** The [code for the question 1.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/P1_b.ipynb) trained a regression classifier using Newton's Method, starting with θ=0, until the error become smaller than 1x10^-5. The decision boundary that separates the data into two classes is shown below:  
+**1.b)**  
+The [code for the question 1.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/P1_b.ipynb) trained a regression classifier using Newton's Method, starting with θ=0, until the error become smaller than 1x10^-5. The decision boundary that separates the data into two classes is shown below:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot.png" title="Newtons Method plot" alt="Newtons Method plot" height="200"></a>
 
