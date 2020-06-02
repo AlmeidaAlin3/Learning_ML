@@ -1,7 +1,7 @@
 <a href="https://dlpng.com/png/498606"><img src="https://i.dlpng.com/static/png/498606_preview.png" title="Stanford" alt="Stanford" height="100"></a>
 
 # Stanford - Machine Learning  
-&nbsp;  
+  
 ### Problem Set #0
 **Exercise 1:** Gradients and Hessians  
 **Exercise 2:** Positive definite matrices  
