@@ -1,4 +1,5 @@
 <img src="https://i.dlpng.com/static/png/498606_preview.png" title="Stanford" alt="Stanford" height="50">  
+
 ## Linear Classifiers (logistic regression and GDA)  
   
 #### **Exercise #1**  
