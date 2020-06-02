@@ -1,5 +1,5 @@
-<a href=""><img src="https://i.dlpng.com/static/png/498606_preview.png" title="Stanford" alt="Stanford" height="50"></a>
-## Linear Classifiers (logistic regression and GDA) 
+<img src="https://i.dlpng.com/static/png/498606_preview.png" title="Stanford" alt="Stanford" height="50">  
+## Linear Classifiers (logistic regression and GDA)  
   
 #### **Exercise #1**  
 The goal in this exercise is to get a deeper understanding of the similarities and differences (and, strengths and weaknesses)
