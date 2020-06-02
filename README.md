@@ -9,8 +9,8 @@
 [**Exercise 1:** Linear Classifiers (logistic regression and GDA)](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise1)  
 **Exercise 2:** Incomplete, Positive-Only Labels    
 **Exercise 3:** Poisson Regression  
-[**Exercise 4:** Convexity of Generalized Linear Models]()    
-[**Exercise 5:** Locally weighted linear regression]()  
+[**Exercise 4:** Convexity of Generalized Linear Models](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise4)    
+[**Exercise 5:** Locally weighted linear regression](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise5)  
 
 
 
