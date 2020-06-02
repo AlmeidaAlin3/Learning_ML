@@ -3,17 +3,17 @@
 # Stanford - Machine Learning  
   
 ### Problem Set #0
-&nbsp;**Exercise 1:** Gradients and Hessians  
-&nbsp;**Exercise 2:** Positive definite matrices  
-&nbsp;**Exercise 3:** Eigenvectors, eigenvalues, and the spectral theorem
+&nbsp; **Exercise 1:** Gradients and Hessians  
+&nbsp; **Exercise 2:** Positive definite matrices  
+&nbsp; **Exercise 3:** Eigenvectors, eigenvalues, and the spectral theorem
 &nbsp;    
 
 ### Problem Set #1
-&nbsp;[**Exercise 1:** Linear Classifiers (logistic regression and GDA)](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise1)  
-&nbsp;**Exercise 2:** Incomplete, Positive-Only Labels    
-&nbsp;**Exercise 3:** Poisson Regression  
-&nbsp;[**Exercise 4:** Convexity of Generalized Linear Models](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise4)    
-&nbsp;[**Exercise 5:** Locally weighted linear regression](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise5)  
+&nbsp;&nbsp; [**Exercise 1:** Linear Classifiers (logistic regression and GDA)](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise1)  
+&nbsp;&nbsp; **Exercise 2:** Incomplete, Positive-Only Labels    
+&nbsp;&nbsp;* *Exercise 3:** Poisson Regression  
+&nbsp;&nbsp; [**Exercise 4:** Convexity of Generalized Linear Models](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise4)    
+&nbsp;&nbsp; [**Exercise 5:** Locally weighted linear regression](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise5)  
 &nbsp;    
 
 ### Problem Set #2
