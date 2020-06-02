@@ -1,13 +1,19 @@
 <a href="https://dlpng.com/png/498606"><img src="https://i.dlpng.com/static/png/498606_preview.png" title="Stanford" alt="Stanford" height="200"></a>
 
 
-# Stanford CS229: Machine Learning  
+# Stanford: Machine Learning  
 *Online course version available at http://cs229.stanford.edu/syllabus-autumn2018.html*  
 
 ---
 
 ### Problem Set #1
-(being updated)
+[**Exercise 1:** Linear Classifiers (logistic regression and GDA)]()  
+[**Exercise 2:** Incomplete, Positive-Only Labels]()  
+[**Exercise 3:** Poisson Regression]()  
+[**Exercise 4:** Convexity of Generalized Linear Models]()  
+[**Exercise 5:** Locally weighted linear regression]()  
+
+
 
 
 ---
