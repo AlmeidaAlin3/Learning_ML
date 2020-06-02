@@ -1,4 +1,4 @@
-<a href="https://dlpng.com/png/498606"><img src="https://i.dlpng.com/static/png/498606_preview.png" title="Stanford" alt="Stanford" height="30"></a>Problem 1, Exercise 1:  
+Problem 1, Exercise 1:  
 ## Linear Classifiers (logistic regression and GDA) 
   
 **Exercise 1:**  
