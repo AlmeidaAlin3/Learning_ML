@@ -3,7 +3,8 @@
 # Stanford - Machine Learning  
 *Online course version available at http://cs229.stanford.edu/syllabus-autumn2018.html*  
 
----
+&nbsp;  
+&nbsp;  
 ### Problem Set #0
 **Exercise 1:** Gradients and Hessians  
 **Exercise 2:** Positive definite matrices  
