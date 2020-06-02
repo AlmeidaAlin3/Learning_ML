@@ -4,6 +4,12 @@
 *Online course version available at http://cs229.stanford.edu/syllabus-autumn2018.html*  
 
 ---
+### Problem Set #0
+**Exercise 1:** Gradients and Hessians  
+**Exercise 2:** Positive definite matrices  
+**Exercise 3:** Eigenvectors, eigenvalues, and the spectral theorem
+&nbsp;  
+&nbsp;  
 
 ### Problem Set #1
 [**Exercise 1:** Linear Classifiers (logistic regression and GDA)](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise1)  
@@ -11,8 +17,10 @@
 **Exercise 3:** Poisson Regression  
 [**Exercise 4:** Convexity of Generalized Linear Models](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise4)    
 [**Exercise 5:** Locally weighted linear regression](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise5)  
+&nbsp;
+&nbsp;  
 
-
+### Problem Set #2
 
 
 ---
