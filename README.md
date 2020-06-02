@@ -2,22 +2,21 @@
 
 # Stanford - Machine Learning  
   
-### Problem Set #0
+### **Problem Set #0**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 1:** Gradients and Hessians  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 2:** Positive definite matrices  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 3:** Eigenvectors, eigenvalues, and the spectral theorem
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 3:** Eigenvectors, eigenvalues, and the spectral theorem 
 
-### Problem Set #1
+### **Problem Set #1**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 1:** Linear Classifiers (logistic regression and GDA)](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise1)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 2:** Incomplete, Positive-Only Labels    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 3:** Poisson Regression  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 4:** Convexity of Generalized Linear Models](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise4)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 5:** Locally weighted linear regression](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise5)  
-&nbsp;    
 
-### Problem Set #2
-
+### **Problem Set #2**  
+&nbsp;  
+&nbsp;  
 
 ---
 
