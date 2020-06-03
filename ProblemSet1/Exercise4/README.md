@@ -8,7 +8,7 @@ An exponential family distribution is one whose probability density can be repre
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/GLM.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/GLM.png" title="GLM" alt="GLM" height="26"></a>
 &nbsp;  
 
-If *η* is scalar and *T(y)=y*:  
+If *η* is scalar and *T(y)=y* the exponential family representation take the form:  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/GLMsub.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/GLMsub.png" title="GLM subgroup" alt="GLM subgroup" height="28"></a>
 
 &nbsp;  
