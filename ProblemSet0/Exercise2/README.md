@@ -1,7 +1,7 @@
 
 <a href="https://i.dlpng.com/static/png/498606_preview.png"><img src="https://i.dlpng.com/static/png/498606_preview.png" title="Stanford" alt="Stanford" height="50"></a>
 
-## Positive definite matrices
+## Positive semidefinite matrices
 
 **Exercise 2**  
 As a Linear Algebra recap, in this exercise we [shown](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise2/ex2_PSD.md) that A = z.z^T is a positive semidefinite matrix.
