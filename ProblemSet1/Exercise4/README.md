@@ -3,21 +3,25 @@
 ## Convexity of Generalized Linear Models  
   
 **Exercise 4**  
+The goal in this exercise is to show that the NLL loss of a GLM is a convex function w.r.t the model parameters.  
+As a reminder, this is convenient because a convex function is one for which any local minimum is also a global minimum.
 
 &nbsp;  
-**4.a)**  
-[solution of question 4.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_a.md)
+**4.a)** 
+The [solution of question 4.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_a.md) derives an expression for E[Y|X;θ] represented as the gradient of the log-partition function a with respect to the natural parameter η. 
 
 &nbsp;  
 **4.b)**  
-[solution of question 4.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_b.md)
+The [solution of question 4.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_b.md) derives an expression for the Var(Y|X;θ) expressed as the derivative of the mean with respect to the natural parameter η. 
+
+Questions **4.a** and **4.b** shows that whereas calculating mean and variance of distributions in general involves integrals (hard), surprisingly we can calculate them using derivatives (easy) for exponential family.
 
 &nbsp;  
 **4.c)**  
-[solution of question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_c.md)
+The [solution of question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_c.md) write out the loss function l(θ), the NLL of the distribution, as a function of θ. 
+Then, calculates the Hessian of the loss with respect to θ, and show that it is always PSD. 
+This proofs that any GLM model is convex in its model parameters and thus have no local minima.
 
-
-  
   
 ---
 
