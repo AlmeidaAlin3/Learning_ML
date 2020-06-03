@@ -28,6 +28,7 @@ This proofs that any GLM model is convex in its model parameters and thus have n
 &nbsp;  
 &nbsp;  
 
+&nbsp;  
 ---
 
 #### Aline Gabriel de Almeida  
