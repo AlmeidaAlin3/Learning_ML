@@ -7,7 +7,7 @@ The goal in this exercise is to show that the NLL loss of a GLM is a convex func
 As a reminder, this is convenient because a convex function is one for which any local minimum is also a global minimum.
 
 &nbsp;  
-**4.a)** 
+**4.a)**  
 The [solution of question 4.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_a.md) derives an expression for E[Y|X;θ] represented as the gradient of the log-partition function a with respect to the natural parameter η. 
 
 &nbsp;  
