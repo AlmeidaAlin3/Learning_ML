@@ -4,7 +4,16 @@
 ## Gradients and Hessians  
 
 **Exercise 1**  
-As a Linear Algebra recap, in this exercise we calculate the [gradient *∇f(x)*](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/ex1_gradient.md) and the [Hessian *∇²f(x)*](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/ex1_hessian.md) for a given *f(x)*.
+As a Linear Algebra recap, in this exercise we calculate the [gradient *∇f(x)*](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/ex1_gradient.md) and the [Hessian *∇²f(x)*](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/ex1_hessian.md) for a given *f(x)*, where:
+
+&nbsp;  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/img/grad_formula.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/img/grad_formula.png" title="Gradient" alt="Gradient" width="800"></a>
+
+and  
+
+&nbsp;  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/img/H_formula.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/img/H_formula.png" title="Hessian" alt="Hessian" width="800"></a>
+
 
 &nbsp;  
 ---
