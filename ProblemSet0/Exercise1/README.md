@@ -14,6 +14,7 @@ and
 &nbsp;  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/img/H_formula.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/img/H_formula.png" title="Hessian" alt="Hessian" width="800"></a>
 
+Both are functions *f:Rn→R*
 
 &nbsp;  
 ---
