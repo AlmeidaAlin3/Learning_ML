@@ -14,7 +14,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 4:** Convexity of Generalized Linear Models](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise4)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 5:** Locally weighted linear regression](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise5)  
 
-### **Problem Set #2**  
+### **Problem Set #2: Supervised Learning II**  
 &nbsp;  
 &nbsp;  
 ---
