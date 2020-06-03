@@ -8,17 +8,17 @@ As a reminder, this is convenient because a convex function is one for which any
 
 &nbsp;  
 **4.a)**  
-The [solution of question 4.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_a.md) derives an expression for E[Y|X;θ] expressed as the gradient of the log-partition function a w.r.t the natural parameter η. 
+The [solution of question 4.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_a.md) derives an expression for *E[Y|X;θ]* expressed as the gradient of the log-partition function a w.r.t the natural parameter *η*. 
 
 &nbsp;  
 **4.b)**  
-The [solution of question 4.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_b.md) derives an expression for the Var(Y|X;θ) expressed as the derivative of the mean w.r.t the natural parameter η. 
+The [solution of question 4.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_b.md) derives an expression for the *Var(Y|X;θ)* expressed as the derivative of the mean w.r.t the natural parameter *η*. 
 
 Questions **4.a** and **4.b** shows that whereas calculating mean and variance of distributions in general involves integrals (hard), surprisingly we can calculate them using derivatives (easy) for exponential family.
 
 &nbsp;  
 **4.c)**  
-The [solution of question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_c.md) write out the loss function **l(θ)**, the NLL of the distribution, as a function of θ. Then, calculates the Hessian of the loss with respect to θ, and show that it is always PSD.  
+The [solution of question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_c.md) write out the loss function *l(θ)*, the NLL of the distribution, as a function of *θ*. Then, calculates the Hessian of the loss with respect to *θ*, and show that it is always PSD.  
 This proofs that any GLM model is convex in its model parameters and thus have no local minima.
 &nbsp;  
 &nbsp;  
