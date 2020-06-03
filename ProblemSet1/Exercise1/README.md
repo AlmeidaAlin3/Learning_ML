@@ -19,6 +19,8 @@ The [code for the question 1.b](https://github.com/AlmeidaAlin3/MachineLearning/
 **1.c)**
   
   
+
+&nbsp;  
 ---
 
 #### Aline Gabriel de Almeida  
