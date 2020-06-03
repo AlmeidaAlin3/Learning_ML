@@ -1,0 +1,1 @@
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/img/H.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/img/H.png" title="Hessian" alt="Hessian" width="800"></a>
