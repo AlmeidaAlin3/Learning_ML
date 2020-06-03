@@ -1,0 +1,1 @@
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/4b.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/4b.png" title="1_b" alt="1_b" width="800"></a>
