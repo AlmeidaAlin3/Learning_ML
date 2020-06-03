@@ -29,7 +29,7 @@ For a dataset with *n* independent samples, suppose we model the values of *y* a
 Specifically:  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/conditional_dist.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/conditional_dist.png" title="Conditional distribution model" alt="Conditional distribution model" height="55"></a>  
 That is, each *y* is drawn from a Gaussian distribution with mean θ^T.x and variance σ² (where the σ’s are fixed, known, constants)
-&nbsp; 
+&nbsp;  
 &nbsp;  
  
 As shown in the [solution of question 5.a.iii](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_iii.md), finding the maximum likelihood estimate of *θ* reduces to solving a weighted linear regression problem:  
