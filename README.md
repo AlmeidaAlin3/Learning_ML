@@ -3,9 +3,9 @@
 # Stanford - Machine Learning  
   
 ### **Problem Set #0: Linear Algebra and Multivariable Calculus**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 1:** Gradients and Hessians  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 2:** Positive definite matrices  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 3:** Eigenvectors, eigenvalues, and the spectral theorem 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 1:** Gradients and Hessians](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet0/Exercise1)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 2:** Positive definite matrices](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet0/Exercise2)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 3:** Eigenvectors, eigenvalues, and the spectral theorem](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet0/Exercise3)   
 
 ### **Problem Set #1: Supervised Learning**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 1:** Linear Classifiers (logistic regression and GDA)](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise1)  
