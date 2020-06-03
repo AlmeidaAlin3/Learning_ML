@@ -3,9 +3,7 @@
 ## Linear Classifiers (logistic regression and GDA)  
   
 **Exercise 1**  
-The goal in this exercise is to get a deeper understanding of the similarities and differences (and, strengths and weaknesses)
-of the two probabilistic linear classifiers. First, a discriminative linear classifier: **logistic regression**. Second, a generative linear classifier:
-**Gaussian discriminant analysis** (GDA). Both the algorithms find a linear decision boundary that separates the data into two classes, but make different assumptions.  
+The goal in this exercise is to get a deeper understanding of the similarities and differences (and strengths and weaknesses) of the two probabilistic linear classifiers. First, a discriminative linear classifier: **logistic regression**. Second, a generative linear classifier: **Gaussian discriminant analysis** (GDA). Both the algorithms find a linear decision boundary that separates the data into two classes, but make different assumptions.  
 
 &nbsp;  
 **1.a)**  
