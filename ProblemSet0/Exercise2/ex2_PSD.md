@@ -1,0 +1,1 @@
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise2/img/PSD.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise2/img/PSD.png" title="PSD matrix" alt="PSD matrix" width="800"></a>
