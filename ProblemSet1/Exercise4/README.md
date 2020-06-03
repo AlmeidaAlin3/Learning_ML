@@ -8,7 +8,7 @@ As a reminder, this is convenient because a convex function is one for which any
 
 &nbsp;  
 **4.a)**  
-The [solution of question 4.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_a.md) derives an expression for *E[Y|X;θ]* expressed as the gradient of the log-partition function a w.r.t the natural parameter *η*. 
+The [solution of question 4.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_a.md) derives an expression for *E[Y|X;θ]* expressed as the gradient of the log-partition function *a* w.r.t the natural parameter *η*. 
 
 &nbsp;  
 **4.b)**  
