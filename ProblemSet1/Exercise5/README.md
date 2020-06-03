@@ -1,20 +1,20 @@
 <a href="https://i.dlpng.com/static/png/498606_preview.png"><img src="https://i.dlpng.com/static/png/498606_preview.png" title="Stanford" alt="Stanford" height="50"></a>
 
-## Linear Classifiers (logistic regression and GDA)  
+## Locally weighted linear regression  
   
 **Exercise 5**  
 
 &nbsp;  
 **5.a.i)**  
-[solution of question 5.a.i](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex5_a_i_ii.pdf)
+[solution of question 5.a.i](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_i.md)
 
 &nbsp;  
 **5.a.ii)**  
-[solution of question 5.a.ii](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex5_a_i_ii.pdf)
+[solution of question 5.a.ii](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_ii.md)
 
 &nbsp;  
 **5.a.iii)**  
-[solution of question 5.a.iii](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex5_a_iii.pdf)
+[solution of question 5.a.iii](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_iii.md)
 
   
   
