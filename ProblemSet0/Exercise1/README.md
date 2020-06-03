@@ -3,7 +3,6 @@
 
 ## Gradients and Hessians  
 
-&nbsp;  
 **Exercise 1**  
 As a Linear Algebra recap, in this exercise we calculate the [gradient *∇f(x)*](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/ex1_gradient.md) and the [Hessian *∇²f(x)*](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/ex1_hessian.md) for a given *f(x)*.
 
