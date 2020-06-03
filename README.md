@@ -2,12 +2,12 @@
 
 # Stanford - Machine Learning  
   
-### **Problem Set #0**  
+### **Problem Set #0: Linear Algebra and Multivariable Calculus**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 1:** Gradients and Hessians  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 2:** Positive definite matrices  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 3:** Eigenvectors, eigenvalues, and the spectral theorem 
 
-### **Problem Set #1**  
+### **Problem Set #1: Supervised Learning**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 1:** Linear Classifiers (logistic regression and GDA)](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise1)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 2:** Incomplete, Positive-Only Labels    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 3:** Poisson Regression  
