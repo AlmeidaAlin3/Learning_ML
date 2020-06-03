@@ -1,20 +1,20 @@
 <a href="https://i.dlpng.com/static/png/498606_preview.png"><img src="https://i.dlpng.com/static/png/498606_preview.png" title="Stanford" alt="Stanford" height="50"></a>
 
-## Linear Classifiers (logistic regression and GDA)  
+## Convexity of Generalized Linear Models  
   
 **Exercise 4**  
 
 &nbsp;  
 **4.a)**  
-[solution of question 4.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_ab.pdf)
+[solution of question 4.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_a.md)
 
 &nbsp;  
 **4.b)**  
-[solution of question 4.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_ab.pdf)
+[solution of question 4.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_b.md)
 
 &nbsp;  
 **4.c)**  
-[solution of question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_c.pdf)
+[solution of question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_c.md)
 
 
   
