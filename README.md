@@ -17,7 +17,6 @@
 ### **Problem Set #2**  
 &nbsp;  
 &nbsp;  
-
 ---
 
 #### Aline Gabriel de Almeida  
