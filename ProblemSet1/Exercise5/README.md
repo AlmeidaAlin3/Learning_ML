@@ -1,16 +1,29 @@
 <a href="https://i.dlpng.com/static/png/498606_preview.png"><img src="https://i.dlpng.com/static/png/498606_preview.png" title="Stanford" alt="Stanford" height="50"></a>
 
 ## Locally weighted linear regression  
-  
+
 **Exercise 5**  
+(...)
 
 &nbsp;  
 **5.a.i)**  
-[solution of question 5.a.i](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_i.md)
+For linear regression:  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_linreg.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_linreg.png" title="Cost function for Linear Regression" alt="Cost function for Linear Regression" height="50"></a>
+
+For a locally weighted linear regression (as shown in the [solution of question 5.a.i](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_i.md))  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_locally_weighted.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_locally_weighted.png" title="Cost function for Locally Weighted Linear Regression" alt="Cost function for Locally Weighted Linear Regression" height="30"></a>
+
 
 &nbsp;  
 **5.a.ii)**  
-[solution of question 5.a.ii](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_ii.md)
+For linear regression, θ that minimizes J(θ):  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/theta_normalEq_linreg.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/theta_normalEq_linreg.png" title="Linear Regression normal equation (solved for theta)" alt="Linear Regression normal equation (solved for theta)" height="30"></a>
+
+For a locally weighted linear regression, θ that minimizes J(θ) (as shown in the [solution of question 5.a.ii](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_ii.md))  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/theta_normalEq_locally_weighted.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/theta_normalEq_locally_weighted.png" title="Locally Weighted Linear Regression normal equation (solved for theta)" alt="Locally Weighted Linear Regression normal equation (solved for theta)" height="30"></a>
+
+
+
 
 &nbsp;  
 **5.a.iii)**  
