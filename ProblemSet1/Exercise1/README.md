@@ -9,7 +9,7 @@ of the two probabilistic linear classifiers. First, a discriminative linear clas
 
 &nbsp;  
 **1.a)**  
-Given J(θ), the average empirical loss for logistic regression, the [solution of question 1.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_a.pdf) shows that the Hessian matrix of J(θ) is **positive semidefinite**; this implies that J(θ) is convex and has no local minima other than global one.  
+Given J(θ), the average empirical loss for logistic regression, the [solution of question 1.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_a.md) shows that the Hessian matrix of J(θ) is **positive semidefinite**; this implies that J(θ) is convex and has no local minima other than global one.  
 
 &nbsp;  
 **1.b)**  
