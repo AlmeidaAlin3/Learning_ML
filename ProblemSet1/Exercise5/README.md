@@ -45,7 +45,6 @@ We got MSE=0.43 and, as we can see, the model predictions are underfiting the da
 &nbsp;  
 **5.c)** 
 The [code for the question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_c.ipynb) compares model predictions using different values of *τ*.  
-&nbsp;  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/tau0p03.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/tau0p03.png" title="Linear Weighted Regression predicitons for different tau values" alt="Linear Weighted Regression predicitons for different tau values" height="200"></a>  
 
