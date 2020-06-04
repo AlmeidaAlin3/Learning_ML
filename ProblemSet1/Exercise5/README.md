@@ -36,7 +36,6 @@ As shown in the [solution of question 5.a.iii](https://github.com/AlmeidaAlin3/M
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/max_likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/max_likelihood.png" title="Maximum likelihood estimate of θ" alt="Maximum likelihood estimate of θ" height="90"></a>
 
 &nbsp;  
-&nbsp;  
 **5.b)** 
 The [code for the question 4.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_b.ipynb) trained a Locally Weighted Linear Regression using the bandwidth *τ=10*. The model predictions (red) and the actual dataset (blue) is shown below:  
 &nbsp;  
@@ -44,7 +43,6 @@ The [code for the question 4.b](https://github.com/AlmeidaAlin3/MachineLearning/
 We got MSE=0.43 and, as we can see, the model predictions are underfiting the data.
 
 &nbsp;  
-&nbsp; 
 **5.c)** 
 The [code for the question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_c.ipynb) compares model predictions using different values of *τ*.  
 &nbsp;  
