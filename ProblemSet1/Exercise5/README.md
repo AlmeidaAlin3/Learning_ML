@@ -3,7 +3,7 @@
 ## Locally weighted linear regression  
 
 **Exercise 5**  
-Generalizing linear regression problem to the weighted setting.
+The goal of this exercise is to generalize the linear regression problem to the weighted setting and explore how the bandwidth value changes the model predictions.
 
 &nbsp;  
 **5.a.i)**  
@@ -25,10 +25,10 @@ For a locally weighted linear regression, *θ* that minimizes *J(θ)* (as shown 
 
 &nbsp;  
 **5.a.iii)**  
-For a dataset with *n* independent samples, suppose we model the values of *y* as drawn from conditional distributions with different levels of variance σ².  
+For a dataset with *n* independent samples, suppose we model the values of *y* as drawn from conditional distributions with different levels of variance *σ²*.  
 Specifically:  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/conditional_dist.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/conditional_dist.png" title="Conditional distribution model" alt="Conditional distribution model" height="55"></a>  
-That is, each *y* is drawn from a Gaussian distribution with mean θ^T.x and variance σ² (where the σ’s are fixed, known, constants)
+That is, each *y* is drawn from a Gaussian distribution with mean *θ^T.x* and variance *σ²* (where the *σ*’s are fixed, known, constants)
 &nbsp;  
 &nbsp;  
  
@@ -36,11 +36,22 @@ As shown in the [solution of question 5.a.iii](https://github.com/AlmeidaAlin3/M
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/max_likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/max_likelihood.png" title="Maximum likelihood estimate of θ" alt="Maximum likelihood estimate of θ" height="90"></a>
 
 &nbsp;  
+&nbsp;  
 **5.b)** 
+The [code for the question 4.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_b.ipynb) trained a Locally Weighted Linear Regression using the bandwidth *τ=10*. The model predictions (red) and the actual dataset (blue) is shown below:  
+&nbsp;  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/5b.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/5b.png" title="Linear Weighted Regression predicitons" alt="Linear Weighted Regression predicitons" height="200"></a>  
+We got MSE=0.43 and, as we can see, the model predictions are underfiting the data.
 
 &nbsp;  
-&nbsp;    
-  
+&nbsp; 
+**5.c)** 
+The [code for the question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_c.ipynb) compares model predictions using different values of *τ*.  
+&nbsp;  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/5b.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/5c.png" title="Linear Weighted Regression predicitons" alt="Linear Weighted Regression predicitons" height="200"></a>  
+*τ=0.05* achieved the best result with MSE=0.017 in the test set.
+
+&nbsp;  
 &nbsp;  
 ---
 
