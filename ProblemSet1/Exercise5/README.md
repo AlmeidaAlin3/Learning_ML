@@ -46,8 +46,21 @@ We got MSE=0.43 and, as we can see, the model predictions are underfiting the da
 **5.c)** 
 The [code for the question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_c.ipynb) compares model predictions using different values of *τ*.  
 &nbsp;  
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/5b.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/5c.png" title="Linear Weighted Regression predicitons" alt="Linear Weighted Regression predicitons" height="200"></a>  
-*τ=0.05* achieved the best result with MSE=0.017 in the test set.
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/tau0p03.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/tau0p03.png" title="Linear Weighted Regression predicitons for different tau values" alt="Linear Weighted Regression predicitons for different tau values" height="200"></a>  
+
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/tau0p05.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/tau0p05.png" title="Linear Weighted Regression predicitons for different tau values" alt="Linear Weighted Regression predicitons for different tau values" height="200"></a>  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/tau0p1.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/tau0p1.png" title="Linear Weighted Regression predicitons for different tau values" alt="Linear Weighted Regression predicitons for different tau values" height="200"></a>  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/tau0p5.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/tau0p5.png" title="Linear Weighted Regression predicitons for different tau values" alt="Linear Weighted Regression predicitons for different tau values" height="200"></a>  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/tau1.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/tau1.png" title="Linear Weighted Regression predicitons for different tau values" alt="Linear Weighted Regression predicitons for different tau values" height="200"></a>  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/tau10.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/tau10.png" title="Linear Weighted Regression predicitons for different tau values" alt="Linear Weighted Regression predicitons for different tau values" height="200"></a> 
+
+***τ=0.05*** achieved the best result with **MSE=0.017** in the test set.
 
 &nbsp;  
 &nbsp;  
