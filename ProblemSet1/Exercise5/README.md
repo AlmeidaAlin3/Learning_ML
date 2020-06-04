@@ -40,7 +40,7 @@ As shown in the [solution of question 5.a.iii](https://github.com/AlmeidaAlin3/M
 The [code for the question 4.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_b.ipynb) trained a Locally Weighted Linear Regression using the bandwidth *τ=10*. The model predictions (red) and the actual dataset (blue) is shown below:  
 &nbsp;  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/5b.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/5b.png" title="Linear Weighted Regression predicitons" alt="Linear Weighted Regression predicitons" height="200"></a>  
-We got MSE=0.43 and, as we can see, the model predictions are underfiting the data.
+As we can see, the model predictions are underfiting the data.
 
 &nbsp;  
 **5.c)** 
@@ -61,7 +61,6 @@ The [code for the question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/
 
 ***τ=0.05*** achieved the best result with **MSE=0.017** in the test set.
 
-&nbsp;  
 &nbsp;  
 ---
 
