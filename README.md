@@ -3,16 +3,16 @@
 # Stanford - Machine Learning  
   
 ### **Problem Set #0: Linear Algebra and Multivariable Calculus**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 1:** Gradients and Hessians](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet0/Exercise1)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 2:** Positive definite matrices](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet0/Exercise2)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 3:** Eigenvectors and eigenvalues](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet0/Exercise3)   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 1:** Gradients and Hessians](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/README.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 2:** Positive definite matrices](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise2/README.md)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 3:** Eigenvectors and eigenvalues](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise3/README.md)   
 
 ### **Problem Set #1: Supervised Learning**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 1:** Linear Classifiers (logistic regression and GDA)](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise1)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 1:** Linear Classifiers (logistic regression and GDA)](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/README.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 2:** Incomplete, Positive-Only Labels    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 3:** Poisson Regression  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 4:** Convexity of Generalized Linear Models](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise4)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 5:** Locally weighted linear regression](https://github.com/AlmeidaAlin3/MachineLearning/tree/master/ProblemSet1/Exercise5)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 4:** Convexity of Generalized Linear Models](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/README.md)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 5:** Locally weighted linear regression](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/README.md)  
 
 ### **Problem Set #2: Supervised Learning II**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 1:** Logistic Regression: Training stability  
