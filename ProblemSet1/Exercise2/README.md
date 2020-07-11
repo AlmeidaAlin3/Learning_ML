@@ -26,7 +26,7 @@ The following three problems will deal with a dataset with *train*, *valid* and 
 First we will consider the ideal case, where we have access to the true labels *t* for training. The [code for the question 2.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_c.ipynb) writes a logistic regression classifier that uses *x_1* and *x_2* as input features, and train it using the *t* labels. The trained model’s predictions is shown below:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2c_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2c_plot.png" title="Train and test on true labels" alt="Train and test on true labels" height="200"></a>  
-*Train and test on true labels*
+*plot 2.c) Train and test on true labels*
 
 &nbsp;  
 **2.d)**  
@@ -34,7 +34,7 @@ We now consider the case where the labels *t* are unavailable, so you only have 
 The trained model’s predictions is shown below:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2d_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2d_plot.png" title="Train on y-labels and test on true labels" alt="Train on y-labels and test on true labels" height="200"></a>  
-*Train on y-labels and test on true labels*
+*plot 2.d) Train on y-labels and test on true labels*
 
 &nbsp;  
 **2.e)**  
@@ -45,7 +45,7 @@ The [code for the question 2.e](https://github.com/AlmeidaAlin3/MachineLearning/
 The classifier’s predictions from part (2.d) were rescaled using the estimated value for alpha and the model’s predictions were plotted in the figure below, using a threshold of *p(t^(i) = 1 | x^(i)) = 0.5*.
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2e_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2e_plot.png" title="" alt="" height="200"></a>  
-*Apply correction factor using validation set and test on true labels*  
+*plot 2.e) Apply correction factor using validation set and test on true labels*  
 
 &nbsp;  
 *Remark: We saw that the true probability **p(t|x)** was only a constant factor away from **p(y|x)**. This means, if our task is to only rank examples in a particular order, then in fact we do not even need to estimate alpha. The rank based on p(y|x) will agree with the rank based on p(t|x).*
