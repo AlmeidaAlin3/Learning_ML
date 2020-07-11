@@ -3,14 +3,12 @@
 ## Poisson Regression  
   
 **Exercise 3**  
-The goal of this problem is to explore Poisson distribution.   
+The goal of this problem is to explore Poisson distribution. The Poisson Distribution given by:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson.png" title="Poisson" alt="Poisson" height="55"></a>   
 
 &nbsp;  
 **3.a)**  
-Consider the Poisson Distribution given by:
-
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson.png" title="Poisson" alt="Poisson" height="55"></a>
-
 The [answer to the question 3.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/ex3_a.md) shows that the Poisson distribution is in the exponential family.
 
 &nbsp;  
