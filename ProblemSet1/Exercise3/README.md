@@ -3,34 +3,41 @@
 ## Poisson Regression  
   
 **Exercise 3**  
-In this problem we will consider training binary classifiers in situations where we do not have full access to the labels. In particular, we consider a scenario where we have labels only for a subset of the positive examples. All the negative examples
-and the rest of the positive examples are unlabelled.  
+The goal of this problem is to explore Poisson distribution.   
 
 &nbsp;  
-**2.a)**  
-Suppose that each y^(i) and x^(i) are conditionally independent given t^(i). Note this is equivalent to saying that labeled examples were selected uniformly at random
-from the set of positive examples. The [answer to the question 2.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_a.md) proves that the probability of an example being labeled differs by a constant factor from the probability of an example being positive.  
-That is:
+**3.a)**  
+Consider the Poisson Distribution given by:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/alpha.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/alpha.png" title="alpha" alt="alpha" height="30"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson.png" title="Poisson" alt="Poisson" height="55"></a>
 
-&nbsp;  
-**2.b)**  
-Suppose we want to estimate *alpha* using a trained classifier *h* and a held-out validation set *V*. Let *V+* be the set of labeled (and hence positive) examples in V. Assuming that *h(x^(i))* is aproximatelly *p(y^(i)=1 | x^(i))*, for all examples *x^(i)*, the [answer to the question 2.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_a.md) shows that: 
-
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/h_alpha.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/h_alpha.png" title="h(alpha)" alt="h(alpha)" height="30"></a>
+The [answer to the question 3.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/ex3_a.md) shows that the Poisson distribution is in the exponential family.
 
 &nbsp;  
-**2.c)**  
+**3.b)** 
+Consider performing regression using GLM with Poisson response variable. The [answer to the question 3.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/ex3_b.md) shows that the canonical response function for the family is:  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson_canonical.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson_canonical.png" title="Poisson Canonical response" alt="Poisson Canonical response" height="30"></a>
+
+**3.c)** 
+The [answer to the question 3.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/ex3_c.md) derives the stochastic gradient ascent update rule for learning using a GLM model with Poisson responses y. The update rule is given by:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson_update.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson_update.png" title="Poisson update rule" alt="Poisson update rule" height="30"></a>
+
+
+
+For a training set {(x (i) , y (i) ); i = 1, . . . , m}, let the log-likelihood of an example
+be log p(y (i) |x (i) ; θ). By taking the derivative of the log-likelihood with respect to θ j , derive
+the stochastic gradient ascent update rule for learning using a GLM model with Poisson
+responses y and the canonical response function.
+
+Consider performing regression using GLM with Poisson response variable. The [answer to the question 3.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/ex3_b.md) shows that the canonical response function for the family is:  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson_canonical.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson_canonical.png" title="Poisson Canonical response" alt="Poisson Canonical response" height="30"></a>
+
+&nbsp;  
+**3.c)**  
 The [code for the question 2.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_c.ipynb) ...:  
-
-&nbsp;  
-**2.d)**  
-The [code for the question 2.d](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_d.ipynb) ...: 
-
-&nbsp;  
-**2.e)**  
-The [code for the question 2.e](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_e.ipynb) ...: 
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2e_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2e_plot.png" title="" alt="" height="200"></a>
 
