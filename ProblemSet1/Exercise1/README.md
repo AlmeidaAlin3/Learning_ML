@@ -19,16 +19,16 @@ The [code for the question 1.b](https://github.com/AlmeidaAlin3/MachineLearning/
 **1.c)**  
 In GDA the joint distribution of *(x, y)* by the following equations:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA.png" title="GDA joint distribution" alt="GDA joint distribution" height="200"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA.png" title="GDA joint distribution" alt="GDA joint distribution" height="150"></a>
 
 Suppose we have already fit the parameters of our model and now want to predict *y* given a new point *x*.  
 To show that GDA results in a classifier that has a linear decision boundary, the [solution of question 1.c]() shows that,  the posterior distribution can be written as:  
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAposterior.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAposterior.png" title="GDA posterior distribution" alt="GDA posterior distribution" height="200"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAposterior.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAposterior.png" title="GDA posterior distribution" alt="GDA posterior distribution" height="43"></a>
 
 So, we can take:  
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAtheta.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAtheta.png" title="GDA theta" alt="GDA theta" height="200"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAtheta.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAtheta.png" title="GDA theta" alt="GDA theta" height="40"></a>
  
 
 &nbsp;  
