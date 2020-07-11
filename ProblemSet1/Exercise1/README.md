@@ -17,13 +17,34 @@ The [code for the question 1.b](https://github.com/AlmeidaAlin3/MachineLearning/
 
 &nbsp;  
 **1.c)**  
+In GDA the joint distribution of *(x, y)* by the following equations:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA.png" title="GDA joint distribution" alt="GDA joint distribution" height="200"></a>
+
+Suppose we have already fit the parameters of our model and now want to predict *y* given a new point *x*.  
+To show that GDA results in a classifier that has a linear decision boundary, the [solution of question 1.c]() shows that,  the posterior distribution can be written as:  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAposterior.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAposterior.png" title="GDA posterior distribution" alt="GDA posterior distribution" height="200"></a>
+
+So, we can take:  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAtheta.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAtheta.png" title="GDA theta" alt="GDA theta" height="200"></a>
+ 
 
 &nbsp;  
 **1.d)**  
+Considering the dimension of *x* is *d = 1*, the maximum likelihood estimates of the parameters are given by:  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA_likelihood_params.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA_likelihood_params.png" title="GDA likelihood parameters" alt="GDA likelihood parameters" height="200"></a>
+
+As shown in the [solution of question 1.d](), by maximizing *l* with respect to the four parameters, the log-likelihood of the data is:  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA_log_likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA_log_likelihood.png" title="GDA log-likelihood" alt="GDA log-likelihood" height="200"></a>
 
 &nbsp;  
 **1.e)**  
 The [code for the question 1.e](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_e.ipynb) used a **GDA** model to make predictions on the validation set. The decision boundary that separates the data into two classes is shown below:  
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1e_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1e_plot.png" title="GDA model plot" alt="GDA model plot" height="200"></a>
 
 &nbsp;  
