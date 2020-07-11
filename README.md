@@ -22,7 +22,19 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 5:** Kernelizing the Perceptron  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 6:** Spam classification  
 
+### **Problem Set #3: Deep Learning & Unsupervised Learning**   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 1:** A Simple Neural Network   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 2:** KL divergence and Maximum Likelihood  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 3:** KL Divergence, Fisher Information, and the Natural Gradient  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 4:** Semi-supervised EM    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 5:** K-means for compression    
 
+### **Problem Set #4: EM, DL, & RL**   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 1:** Neural Networks: MNIST image classification   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 2:** Off Policy Evaluation And Causal Inference  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 3:** PCA    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 4:** Independent Components Analysis      
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 5:** Markov decision processes     
  
 &nbsp;  
 ---
