@@ -9,7 +9,7 @@
 
 ### **Problem Set #1: Supervised Learning**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 1:** Linear Classifiers (logistic regression and GDA)](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/README.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 2:** Incomplete, Positive-Only Labels    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 2:** Incomplete, Positive-Only Labels](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/README.md)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 3:** Poisson Regression  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 4:** Convexity of Generalized Linear Models](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/README.md)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 5:** Locally weighted linear regression](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/README.md)  
