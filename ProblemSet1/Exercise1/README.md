@@ -16,9 +16,17 @@ The [code for the question 1.b](https://github.com/AlmeidaAlin3/MachineLearning/
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot.png" title="Newtons Method plot" alt="Newtons Method plot" height="200"></a>
 
 &nbsp;  
-**1.c)**
-  
-  
+**1.c)**  
+
+&nbsp;  
+**1.d)**  
+
+&nbsp;  
+**1.e)**  
+The [code for the question 1.e](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_e.ipynb) used a **GDA** model to make predictions on the validation set. The decision boundary that separates the data into two classes is shown below:  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1e_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1e_plot.png" title="GDA model plot" alt="GDA model plot" height="200"></a>
+
 
 &nbsp;  
 ---
