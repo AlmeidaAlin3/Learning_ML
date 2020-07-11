@@ -3,30 +3,29 @@
 ## Poisson Regression  
   
 **Exercise 3**  
-The goal of this problem is to explore Poisson distribution which distribution given by:
+The goal of this exercise is to explore Poisson regression which distribution given by:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson.png" title="Poisson" alt="Poisson" height="55"></a>   
 
 &nbsp;  
 **3.a)**  
-The [answer to the question 3.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/ex3_a.md) shows that the Poisson distribution is in the exponential family.
+The [answer to the question 3.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/ex3_a.md) shows that the Poisson distribution is part of the exponential family.
 
 &nbsp;  
 **3.b)**  
-Consider performing regression using GLM with Poisson response variable. The [answer to the question 3.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/ex3_b.md) shows that the canonical response function for the family is:  
+The [answer to the question 3.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/ex3_b.md) shows that the canonical response function for the family is:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson_canonical.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson_canonical.png" title="Poisson Canonical response" alt="Poisson Canonical response" height="30"></a>
 
 &nbsp;  
 **3.c)**  
-The [answer to the question 3.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/ex3_c.md) derives the stochastic gradient ascent update rule for learning using a GLM model with Poisson responses y. The update rule is given by:
+The [answer to the question 3.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/ex3_c.md) derives the stochastic gradient ascent update rule for learning using a GLM model with Poisson responses *y*. The update rule is given by:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson_update.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson_update.png" title="Poisson update rule" alt="Poisson update rule" height="30"></a>
 
 &nbsp;  
 **3.d)**  
-Consider a website that wants to predict its daily traffic. The website owners have collected a dataset of past traffic to their website, along with
-some features which they think are useful in predicting the number of visitors per day. We will apply Poisson regression to model the number of visitors per day. Note that applying Poisson regression in particular assumes that the data follows a Poisson distribution whose natural parameter is a linear combination of the input features (i.e., *η = θ.T.x*).  
+Supposing that a website wants to predict its daily traffic and the website owner's have collected a dataset of past traffic to their website, along with some features which they think are useful in predicting the number of visitors per day. The Poisson regression will be applied to model the number of visitors per day. Note that applying Poisson regression in particular assumes that the data follows a Poisson distribution whose natural parameter is a linear combination of the input features (i.e., *η = θ.T.x*).  
 The [code for the question 3.d](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex3_d.ipynb) implements the Poisson regression and use gradient ascent to maximize the log-likelihood of *θ*.
 
 
