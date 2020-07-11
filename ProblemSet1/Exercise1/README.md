@@ -14,6 +14,7 @@ Given J(θ), the average empirical loss for logistic regression, the [solution o
 The [code for the question 1.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_b.ipynb) trained a **regression** classifier using Newton's Method, starting with θ=0, until the error become smaller than 1x10^-5. The decision boundary that separates the data into two classes is shown below:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot.png" title="Logistic regression plot" alt="Logistic regression plot" height="200"></a>
+
 &nbsp;  
 **1.c)**  
 
@@ -24,15 +25,17 @@ The [code for the question 1.b](https://github.com/AlmeidaAlin3/MachineLearning/
 **1.e)**  
 The [code for the question 1.e](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_e.ipynb) used a **GDA** model to make predictions on the validation set. The decision boundary that separates the data into two classes is shown below:  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1e_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1e_plot.png" title="GDA model plot" alt="GDA model plot" height="200"></a>
+
 &nbsp;  
 **1.f)** 
 Here are shown the plots using Dataset2:
-
-logistic regression:  
+i) Logistic regression:  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot2.png" title="Logistic regression plot" alt="Logistic regression plot" height="200"></a>
+
 &nbsp;  
-GDA:  
+ii) GDA:  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1e_plot2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1e_plot2.png" title="GDA model plot" alt="GDA model plot" height="200"></a>
+
 &nbsp;  
 **1.g)**  
 GDA does seem to perform worse than logistic regression on Dataset1 because the distribution of this dataset is not gaussian.
