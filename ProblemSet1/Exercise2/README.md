@@ -1,13 +1,18 @@
 <a href="https://i.dlpng.com/static/png/498606_preview.png"><img src="https://i.dlpng.com/static/png/498606_preview.png" title="Stanford" alt="Stanford" height="50"></a>
 
-## Linear Classifiers (logistic regression and GDA)  
+## Incomplete, Positive-Only Labels  
   
-**Exercise 1**  
-The goal in this exercise is to get a deeper understanding of the similarities and differences (and strengths and weaknesses) of the two probabilistic linear classifiers. First, a discriminative linear classifier: **logistic regression**. Second, a generative linear classifier: **Gaussian discriminant analysis** (GDA). Both the algorithms find a linear decision boundary that separates the data into two classes, but make different assumptions.  
+**Exercise 2**  
+In this problem we will consider training binary classifiers in situations where we do not have full access to the labels. In particular, we consider a scenario where we have labels only for a subset of the positive examples. All the negative examples
+and the rest of the positive examples are unlabelled.  
 
 &nbsp;  
-**1.a)**  
-Given J(θ), the average empirical loss for logistic regression, the [solution of question 1.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_a.md) shows that the Hessian matrix of J(θ) is **positive semidefinite**; this implies that J(θ) is convex and has no local minima other than global one.  
+**2.a)**  
+Suppose that each y^(i) and x^(i) are conditionally independent given t^(i). Note this is equivalent to saying that labeled examples were selected uniformly at random
+from the set of positive examples. The [solution to the problem 2.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_a.md) proves that the probability of an example being labeled differs by a constant factor from the probability of an example being positive.  
+That is:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/alpha.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/alpha.png" title="Logistic regression plot" alt="distribution" height="30"></a>
 
 &nbsp;  
 **1.b)**  
