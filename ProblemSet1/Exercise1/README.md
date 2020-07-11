@@ -24,7 +24,6 @@ The [code for the question 1.b](https://github.com/AlmeidaAlin3/MachineLearning/
 **1.e)**  
 The [code for the question 1.e](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_e.ipynb) used a **GDA** model to make predictions on the validation set. The decision boundary that separates the data into two classes is shown below:  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1e_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1e_plot.png" title="GDA model plot" alt="GDA model plot" height="200"></a>
-
 &nbsp;  
 **1.f)** 
 Here are shown the plots using Dataset2:
