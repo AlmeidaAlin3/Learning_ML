@@ -40,7 +40,7 @@ GDA:
 
 &nbsp;  
 **1.g)**  
-
+GDA does seem to perform worse than logistic regression on Dataset1 because the distribution of this dataset is not gaussian.
 
 &nbsp;  
 ---
