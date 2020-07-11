@@ -21,15 +21,20 @@ Suppose we want to estimate *alpha* using a trained classifier *h* and a held-ou
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/h_alpha.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/h_alpha.png" title="h(alpha)" alt="h(alpha)" height="30"></a>
 
 &nbsp;  
-**2.c)**  The following three problems will deal with a dataset with *train*, *valid* and *test* files. Each of them contains the following columns: *x_1* , *x_2* , *y*, and *t*. 
+**2.c)**  
+The following three problems will deal with a dataset with *train*, *valid* and *test* files. Each of them contains the following columns: *x_1* , *x_2* , *y*, and *t*. 
 First we will consider the ideal case, where we have access to the true labels *t* for training. The [code for the question 2.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_c.ipynb) writes a logistic regression classifier that uses *x_1* and *x_2* as input features, and train it using the *t* labels. The trained model’s predictions is shown below:  
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2c_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2c_plot.png" title="Train and test on true labels" alt="Train and test on true labels" height="200"></a>
-
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2c_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2c_plot.png" title="Train and test on true labels" alt="Train and test on true labels" height="200"></a>  
+*Train and test on true labels*
 
 &nbsp;  
 **2.d)**  
-The [code for the question 2.d](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_d.ipynb) ...: 
+We now consider the case where the labels *t* are unavailable, so you only have access to the *y*-labels at training time. The [code for the question 2.d](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_d.ipynb) re-trained the logistic regression classifier still using *x_1* and *x_2* as input features, but using the *y* labels only. 
+The trained model’s predictions is shown below:  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2d_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2d_plot.png" title="Train on y-labels and test on true labels" alt="Train on y-labels and test on true labels" height="200"></a>  
+*Train on y-labels and test on true labels*
 
 &nbsp;  
 **2.e)**  
