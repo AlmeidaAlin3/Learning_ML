@@ -44,8 +44,10 @@ The [code for the question 2.e](https://github.com/AlmeidaAlin3/MachineLearning/
 
 The classifier’s predictions from part (2.d) were rescaled using the estimated value for alpha and the model’s predictions were plotted in the figure below, using a threshold of *p(t^(i) = 1 | x^(i)) = 0.5*.
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2e_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2e_plot.png" title="" alt="" height="200"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2e_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2e_plot.png" title="" alt="" height="200"></a>  
+*Apply correction factor using validation set and test on true labels*  
 
+&nbsp;  
 *Remark: We saw that the true probability **p(t|x)** was only a constant factor away from **p(y|x)**. This means, if our task is to only rank examples in a particular order, then in fact we do not even need to estimate alpha. The rank based on p(y|x) will agree with the rank based on p(t|x).*
 
 &nbsp;  
