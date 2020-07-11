@@ -17,6 +17,7 @@ Consider performing regression using GLM with Poisson response variable. The [an
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson_canonical.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/img/poisson_canonical.png" title="Poisson Canonical response" alt="Poisson Canonical response" height="30"></a>
 
+&nbsp;  
 **3.c)**  
 The [answer to the question 3.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise3/ex3_c.md) derives the stochastic gradient ascent update rule for learning using a GLM model with Poisson responses y. The update rule is given by:
 
