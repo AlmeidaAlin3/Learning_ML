@@ -27,6 +27,20 @@ The [code for the question 1.e](https://github.com/AlmeidaAlin3/MachineLearning/
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1e_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1e_plot.png" title="GDA model plot" alt="GDA model plot" height="200"></a>
 
+&nbsp;  
+**1.f)** 
+Here are shown the plots using Dataset2:
+
+*logistic regression:*  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot2.png" title="GDA model plot" alt="GDA model plot" height="200"></a>
+
+&nbsp;  
+*GDA:*  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1e_plot2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1e_plot2.png" title="GDA model plot" alt="GDA model plot" height="200"></a>
+
+&nbsp;  
+**1.g)**  
+
 
 &nbsp;  
 ---
