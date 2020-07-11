@@ -20,12 +20,19 @@ Suppose we want to estimate *alpha* using a trained classifier *h* and a held-ou
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/h_alpha.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/h_alpha.png" title="h(alpha)" alt="h(alpha)" height="30"></a>
 
+&nbsp;  
+**2.c)**  
+The [code for the question 2.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_c.ipynb) ...:  
 
 &nbsp;  
-**1.b)**  
-The [code for the question 1.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_b.ipynb) trained a **regression** classifier using Newton's Method, starting with θ=0, until the error become smaller than 1x10^-5. The decision boundary that separates the data into two classes is shown below:  
+**2.d)**  
+The [code for the question 2.d](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_d.ipynb) ...: 
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot.png" title="Logistic regression plot" alt="Logistic regression plot" height="200"></a>
+&nbsp;  
+**2.e)**  
+The [code for the question 2.e](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_e.ipynb) ...: 
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2e_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/2e_plot.png" title="" alt="" height="200"></a>
 
 
 &nbsp;  
