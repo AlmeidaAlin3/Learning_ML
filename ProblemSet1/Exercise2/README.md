@@ -9,10 +9,17 @@ and the rest of the positive examples are unlabelled.
 &nbsp;  
 **2.a)**  
 Suppose that each y^(i) and x^(i) are conditionally independent given t^(i). Note this is equivalent to saying that labeled examples were selected uniformly at random
-from the set of positive examples. The [solution to the problem 2.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_a.md) proves that the probability of an example being labeled differs by a constant factor from the probability of an example being positive.  
+from the set of positive examples. The [answer to the question 2.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_a.md) proves that the probability of an example being labeled differs by a constant factor from the probability of an example being positive.  
 That is:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/alpha.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/alpha.png" title="Logistic regression plot" alt="distribution" height="30"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/alpha.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/alpha.png" title="alpha" alt="alpha" height="30"></a>
+
+&nbsp;  
+**2.b)**  
+Suppose we want to estimate *alpha* using a trained classifier *h* and a held-out validation set *V*. Let *V+* be the set of labeled (and hence positive) examples in V. Assuming that *h(x^(i)) is aproximatelly p(y^(i)=1 | x^(i)), for all examples x^(i), the [answer to the question 2.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/ex2_a.md) shows that: 
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/h_alpha.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/h_alpha.png" title="h(alpha)" alt="h(alpha)" height="30"></a>
+
 
 &nbsp;  
 **1.b)**  
