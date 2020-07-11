@@ -7,7 +7,7 @@ The goal in this exercise is to get a deeper understanding of the similarities a
 
 &nbsp;  
 **1.a)**  
-Given J(θ), the average empirical loss for logistic regression, the [solution of question 1.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_a.md) shows that the Hessian matrix of J(θ) is **positive semidefinite**; this implies that J(θ) is convex and has no local minima other than global one.  
+Given J(θ), the average empirical loss for logistic regression, the [solution to the question 1.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_a.md) shows that the Hessian matrix of J(θ) is **positive semidefinite**; this implies that J(θ) is convex and has no local minima other than global one.  
 
 &nbsp;  
 **1.b)**  
@@ -21,7 +21,7 @@ In GDA the joint distribution of *(x, y)* by the following equations:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA.png" title="GDA joint distribution" alt="GDA joint distribution" height="150"></a>
 
-Suppose we have already fit the parameters of our model and now want to predict *y* given a new point *x*. To show that GDA results in a classifier that has a linear decision boundary, the [solution of question 1.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_c.md) shows that,  the posterior distribution can be written as:  
+Suppose we have already fit the parameters of our model and now want to predict *y* given a new point *x*. To show that GDA results in a classifier that has a linear decision boundary, the [solution to the question 1.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_c.md) shows that,  the posterior distribution can be written as:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAposterior.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAposterior.png" title="GDA posterior distribution" alt="GDA posterior distribution" height="43"></a>
 
@@ -36,7 +36,7 @@ Considering the dimension of *x* is *d = 1*, the maximum likelihood estimates of
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA_likelihood_params.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA_likelihood_params.png" title="GDA likelihood parameters" alt="GDA likelihood parameters" height="200"></a>
 
-As shown in the [solution of question 1.d](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_d.md), by maximizing *l* with respect to the four parameters, the log-likelihood of the data is:  
+As shown in the [solution to the question 1.d](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_d.md), by maximizing *l* with respect to the four parameters, the log-likelihood of the data is:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA_log_likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA_log_likelihood.png" title="GDA log-likelihood" alt="GDA log-likelihood" height="50"></a>
 
