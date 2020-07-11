@@ -10,7 +10,7 @@ The goal of this exercise is to generalize the linear regression problem to the 
 For linear regression:  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_linreg.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_linreg.png" title="Cost function for Linear Regression" alt="Cost function for Linear Regression" height="50"></a>
 
-For a locally weighted linear regression (as shown in the [solution of question 5.a.i](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_i.md))  
+For a locally weighted linear regression (as shown in the [answer to the question 5.a.i](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_i.md))  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_locally_weighted.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_locally_weighted.png" title="Cost function for Locally Weighted Linear Regression" alt="Cost function for Locally Weighted Linear Regression" height="31"></a>
 
 
@@ -19,7 +19,7 @@ For a locally weighted linear regression (as shown in the [solution of question 
 For linear regression, *θ* that minimizes *J(θ)*:  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/theta_normalEq_linreg.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/theta_normalEq_linreg.png" title="Linear Regression normal equation (solved for theta)" alt="Linear Regression normal equation (solved for theta)" height="26"></a>
 
-For a locally weighted linear regression, *θ* that minimizes *J(θ)* (as shown in the [solution of question 5.a.ii](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_ii.md))  
+For a locally weighted linear regression, *θ* that minimizes *J(θ)* (as shown in the [answer to the question 5.a.ii](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_ii.md))  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/theta_normalEq_locally_weighted.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/theta_normalEq_locally_weighted.png" title="Locally Weighted Linear Regression normal equation (solved for theta)" alt="Locally Weighted Linear Regression normal equation (solved for theta)" height="29"></a>
 
 
@@ -32,7 +32,7 @@ That is, each *y* is drawn from a Gaussian distribution with mean *θ^T.x* and v
 &nbsp;  
 &nbsp;  
  
-As shown in the [solution of question 5.a.iii](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_iii.md), finding the maximum likelihood estimate of *θ* reduces to solving a weighted linear regression problem:  
+As shown in the [answer to the question 5.a.iii](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_iii.md), finding the maximum likelihood estimate of *θ* reduces to solving a weighted linear regression problem:  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/max_likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/max_likelihood.png" title="Maximum likelihood estimate of θ" alt="Maximum likelihood estimate of θ" height="90"></a>
 
 &nbsp;  
