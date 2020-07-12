@@ -34,25 +34,38 @@ As the dataset is linearly separable, then for some optimal *θ* the term *(y * 
 
 It means that *θ* can be multiplied by a larger scalar to get larger *L(θ)*, therefore there are nor only, but infinite number of maximum likelihood estimations.  
 
+&nbsp;  
+**1.c)**   
+Let's verify the proposed solutions. Would it lead to provided training algorithm converging on datasets such as *B*?  
+&nbsp;  
+**i)** *Using a **different constant** learning rate*  
+
+No, It would not solve the problem of convergence since *L(θ)* could still be arbitrarily large.  
 
 &nbsp;  
-**1.c)**  
-the [answer to the question 1.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_c.md) shows that
+**ii)** **Decreasing the learning rate over time**, *for example scaling the initial learning rate by 1/t², where t is the number of gradient descent iterations thus far*  
+
+Yes, when the learning rate is sufficiently small, the update to *θ* would be also very small, and it will be judged as converged by the algorithm.  
+
+&nbsp;  
+**iii)** **Linear scaling** *of the input features*  
+
+No, it would not help since the dataset would still be linearly seperable.  
+
+&nbsp;  
+**iv)** *Adding a **regularization term** ||θ||² to the loss function*  
+
+Yes, adding a regularization term would penalize the model for larger values of *θ*, so it would not assume arbitrarily large values.  
+
+&nbsp;  
+**v)** *Adding **zero-mean Gaussian noise** to the training data or labels*  
+
+Yes, It would very likely make the dataset not linearly seperable.  
+
 
 &nbsp;  
 **1.d)**  
-
-
-&nbsp;  
-**1.e)**  
-The [code for the question 1.e](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_e.ipynb) used a **GDA** model to make predictions on the validation set. 
-
-&nbsp;  
-**1.f)**  
-
-
-&nbsp;  
-**1.g)**  
+The Support Vector Machines are not vulnerable to datasets like *B*, because it's objective is directly associated to geometri margins which is independent with the scaling of *θ*.  
 
 
 &nbsp;  
