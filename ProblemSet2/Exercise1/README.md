@@ -8,7 +8,7 @@ The goal of this exercise is to delve deeper into the workings of logistic regre
 
 &nbsp;  
 **1.a)**  
-This exercise provided a [implementation of logistic regression](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/ex1_a.ipynb) that were ran using two labeled datasets *A* and *B*. The most notable difference in training the model on these datasets were that the thaining on dataset *A* finished with few iterations, while *B* had never converged.  
+This exercise provided a [implementation of logistic regression](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/ex1_a.ipynb) that were ran using two labeled datasets *A* and *B*. The most notable difference in training the model on these datasets were that the training on dataset *A* finished with few iterations, while *B* did not converge.
 
 &nbsp;  
 **1.b)**  
@@ -22,10 +22,22 @@ The Datasets *A* and *B* plots are shown below:
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/B_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/B_plot.png" title="Dataset B" alt="Dataset B" height="200"></a>  
 *plot ii) Dataset B*
 
-From the plots we can see that the Dataset B is perfectly linearly separable; This is the reason why the model training on this dataset didn't converge.
-The model aims to maximize the likelihood estimation given by the equation:  
+&nbsp;  
+From the plots above we can see that only the dataset *B* is a perfectly linearly separable dataset; This is the reason why the model training on dataset *B* did not converge.
+The model optimization goal is to maximize the likelihood estimation given by the equation:  
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png" title="likelihood" alt="likelihood" height="60"></a>  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png" title="likelihood" alt="likelihood" height="65"></a>
+
+The intuition is that large positive number means that x is likely to be positive (y = 1), and negative number means x is negative (y = 0):
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/plot_sigmoid.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/plot_sigmoid.png" title="sigmoid" alt="sigmoid" height="200"></a>
+
+As the dataset is linearly separable, then for some optimal *θ* the term *(y * θ.T * x)* will always be positive. Remember that *θ* update rule is given by de equation:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png" title="likelihood" alt="likelihood" height="65"></a>
+
+So the algorithm 
+
+
 
 
 
