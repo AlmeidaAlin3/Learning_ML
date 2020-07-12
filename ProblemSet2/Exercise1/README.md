@@ -23,16 +23,11 @@ The Datasets *A* and *B* plots are shown below:
 *plot ii) Dataset B*
 
 &nbsp;  
-From the two plots above we can see that only the dataset *B* is perfectly linearly separable; This is the reason why the model training did not converge.  
-Remember that the model optimization goal is to maximize the likelihood estimation given by the equation:  
+From the two plots above we can see that only the dataset *B* is perfectly linearly separable; This is the reason why the model training did not converge. Remember that the model optimization goal is to maximize the likelihood estimation given by the equation:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png" title="likelihood" alt="likelihood" height="65"></a>
 
-As the dataset is linearly separable, then for some optimal *θ* the term *(y * θ.T * x)* will always be positive; We can see this relationship in the sigmoid curve plot:
-
-&nbsp;&nbsp; <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/sigmoid_func.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/sigmoid_func.png" title="sigmoid" alt="sigmoid" height="185"></a>
-
-It means that *θ* can be multiplied by a larger scalar to get larger *L(θ)*, therefore there are nor only, but infinite number of maximum likelihood estimations.  
+As the dataset is linearly separable, then for some optimal *θ* the term *(y * θ.T * x)* will always be positive. It means that *θ* can be multiplied by a larger scalar to get larger *L(θ)*, therefore there are nor only, but infinite number of maximum likelihood estimations.  
 
 &nbsp;  
 **1.c)**   
