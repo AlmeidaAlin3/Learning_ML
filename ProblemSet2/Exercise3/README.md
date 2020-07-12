@@ -42,21 +42,37 @@ Recall that *L2* regularization penalizes the *L2* norm of the parameters while 
 
 The [answer to the question 2.b]() shows that MAP estimation with a zero-mean Gaussian prior over *θ*, specifically **θ ∼ Normal(0, η².I)**, is equivalent to applying *L2* regularization with MLE estimation. That is:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_reg1.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_reg1.png" title="MAP with a zero-mean Gaussian prior over θ" alt="MAP with a zero-mean Gaussian prior over θ" height="35"></a>  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_reg1.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_reg1.png" title="MAP L2" alt="MAP L2" height="35"></a>  
 
 where **λ = 1/(2η²)**:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_reg2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_reg2.png" title="MAP with a zero-mean Gaussian prior over θ" alt="MAP with a zero-mean Gaussian prior over θ" height="45"></a> 
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_reg2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_reg2.png" title="MAP L2" alt="MAP L2" height="45"></a> 
 
 &nbsp;  
 **2.c)**  
 Now consider a specific instance, a linear regression model given by **y=(θ.T).x + err**, where **err ~ Normal(0, σ²)**. Like before, assume a Gaussian prior on this model such that *θ ∼ Normal(0, η².I)*.  
 The [answer to the question 2.c]() came up with the closed form expression for *θMAP*:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_closed_form.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_closed_form.png" title="MAP closed form" alt="MAP closed form" height="60"></a> 
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_closed_form.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_closed_form.png" title="MAP closed form" alt="MAP closed form" height="55"></a> 
 
 &nbsp;  
 **2.d)**  
+Next consider the Laplace distribution, whose density is given by:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/Laplace_density.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/Laplace_density.png" title="Laplace_density" alt="Laplace_density" height="55"></a>  
+
+and a linear regression model given by **y=(θ.T).x + err**, where **err ~ Normal(0, σ²)**. Assume a Laplace prior on this model where **θ ∼ Laplace(0, b.I)**.
+The [answer to the question 2.d]() shows that *θMAP* in this case is equivalent to the solution of linear regression with *L1* regularization:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_L1.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_L1.png" title="MAP L1" alt="MAP L1" height="48"></a>  
+
+where **λ = 1/b** and whose loss is specified as:
+
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_L1_loss.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_L1_loss.png" title="MAP L1 loss" alt="MAP L1 loss" height="30"></a>  
+
+&nbsp;  
+Note: A closed form solution for linear regression problem with *L1* regularization does not exist. To optimize this, we use gradient descent with a random initialization and solve it numerically.
 
 
 &nbsp;  
