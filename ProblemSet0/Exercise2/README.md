@@ -4,7 +4,7 @@
 ## Positive semidefinite matrices
 
 **Exercise 2**  
-As a Linear Algebra recap, in this exercise we [shown](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise2/ex2_PSD.md) that A = z.z^T is a positive semidefinite matrix.
+As a Linear Algebra recap, in this exercise we [shown](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise2/ex2_PSD.md) that A = z.(z.T) is a positive semidefinite matrix.
 
 
 &nbsp;  
