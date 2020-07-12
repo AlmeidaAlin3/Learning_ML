@@ -36,7 +36,7 @@ Considering the dimension of *x* is *d = 1*, the maximum likelihood estimates of
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA_likelihood_params.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA_likelihood_params.png" title="GDA likelihood parameters" alt="GDA likelihood parameters" height="200"></a>
 
-As shown in the [answer to the question 1.d](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_d.md), by maximizing *l* with respect to the four parameters, the log-likelihood of the data is:  
+As shown in the [answer to the question 1.d](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_d.md), by maximizing *ℓ* with respect to the four parameters, the log-likelihood of the data is:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA_log_likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA_log_likelihood.png" title="GDA log-likelihood" alt="GDA log-likelihood" height="50"></a>
 
