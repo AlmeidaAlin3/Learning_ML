@@ -16,7 +16,7 @@ That is:
 
 and:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/alpha_val.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/alpha_val.png" title="alpha value" alt="alpha value" height="30"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/alpha_val.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise2/img/alpha_val.png" title="alpha value" alt="alpha value" height="25"></a>
 
 &nbsp;  
 **2.b)**  
