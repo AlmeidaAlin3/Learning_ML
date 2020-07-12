@@ -32,12 +32,20 @@ This shows that the the model is indeed well-calibrated.
 If we have a binary classification model that we know is perfectly calibrated, it **does not** necessarily imply that the model achieves perfect accuracy. And the converse is also **not true**.  
 
 For example, suppose a dataset that contains the result got from flipping a biased coin multiple times and it has 50% of positive data (tails).  
-Then a model which always outputs 0.5 will be perfectly calibrated, but not necessarily acurate.  
-On the other hand, a model that outputs 0.75 for positive examples (tails) and 0.25 for negative examples (heads) could have perfect accuracy, but would be not perfectly calibrated.  
+Then a model which always outputs 0.5 will be perfectly calibrated, but not necessarily acurate. On the other hand, a model that outputs 0.75 for positive examples (tails) and 0.25 for negative examples (heads) could have perfect accuracy, but would be not perfectly calibrated.  
 
 &nbsp;  
-**1.d)**  
-The Support Vector Machines are not vulnerable to datasets like *B*, because it's objective is directly associated to geometri margins which is independent with the scaling of *θ*.  
+**2.c)**  
+When including a L2 regularization in the logistic regression, the equation becomes:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/regularization.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/regularization.png" title="Regularization term added" alt="Regularization term added" height="60"></a>
+
+The regularization given by *λ||θ||* has no effect on model calibration.  
+
+&nbsp;  
+*Remark:*  
+*When the training and test set are from the same distribution and when the model has not overfit or underfit, logistic regression tends to be well-calibrated on unseen test data as well. This makes logistic regression a very popular model in practice, especially when we are interested in the level of uncertainty in the model output.*
+
 
 
 &nbsp;  
