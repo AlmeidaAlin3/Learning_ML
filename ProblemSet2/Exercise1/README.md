@@ -30,7 +30,7 @@ Remember that the model optimization goal is to maximize the likelihood estimati
 
 As the dataset is linearly separable, then for some optimal *θ* the term *(y * θ.T * x)* will always be positive; We can see this relationship in the sigmoid curve plot:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/sigmoid_func.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/sigmoid_func.png" title="sigmoid" alt="sigmoid" height="200"></a>
+&nbsp;&nbsp; <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/sigmoid_func.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/sigmoid_func.png" title="sigmoid" alt="sigmoid" height="185"></a>
 
 It means that *θ* can be multiplied by a larger scalar to get larger *L(θ)*, therefore there are nor only, but infinite number of maximum likelihood estimations.  
 
