@@ -43,8 +43,7 @@ When including a L2 regularization in the logistic regression, the equation beco
 The regularization given by *λ||θ||* has no effect on model calibration.  
 
 &nbsp;  
-*Remark:*  
-*When the training and test set are from the same distribution and when the model has not overfit or underfit, logistic regression tends to be well-calibrated on unseen test data as well. This makes logistic regression a very popular model in practice, especially when we are interested in the level of uncertainty in the model output.*
+*Remark: When the training and test set are from the same distribution and when the model has not overfit or underfit, logistic regression tends to be well-calibrated on unseen test data as well. This makes logistic regression a very popular model in practice, especially when we are interested in the level of uncertainty in the model output.*
 
 
 
