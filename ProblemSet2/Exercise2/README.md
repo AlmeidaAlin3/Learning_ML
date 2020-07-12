@@ -38,7 +38,7 @@ Then a model which always outputs 0.5 will be perfectly calibrated, but not nece
 **2.c)**  
 When including a L2 regularization in the logistic regression, the equation becomes:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/regularization.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/regularization.png" title="Regularization term added" alt="Regularization term added" height="60"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/regularization.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/regularization.png" title="Regularization term added" alt="Regularization term added" height="65"></a>
 
 The regularization given by *λ||θ||* has no effect on model calibration.  
 
