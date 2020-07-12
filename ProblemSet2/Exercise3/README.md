@@ -50,11 +50,13 @@ where **λ = 1/(2η²)**:
 
 &nbsp;  
 **2.c)**  
-ccc
+Now consider a specific instance, a linear regression model given by **y=(θ.T).x + err**, where **err ~ Normal(0, σ²)**. Like before, assume a Gaussian prior on this model such that *θ ∼ Normal(0, η².I)*.  
+The [answer to the question 2.c]() came up with the closed form expression for *θMAP*:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_closed_form.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_closed_form.png" title="MAP closed form" alt="MAP closed form" height="60"></a> 
 
 &nbsp;  
 **2.d)**  
-ddd
 
 
 &nbsp;  
