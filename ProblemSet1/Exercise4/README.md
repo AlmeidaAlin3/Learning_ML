@@ -29,8 +29,7 @@ Questions **4.a** and **4.b** shows that whereas calculating mean and variance o
 
 &nbsp;  
 **4.c)**  
-The [answer to the question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_c.md) write out the loss function *ℓ(θ)*, the NLL of the distribution, as a function of *θ*. Then, calculates the Hessian of the loss with respect to *θ*, and show that it is always PSD.  
-This proofs that any GLM model is convex in its model parameters and thus have no local minima.
+The [answer to the question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_c.md) write out the loss function *ℓ(θ)*, the NLL of the distribution, as a function of *θ*. Then, calculates the Hessian of the loss with respect to *θ*, and show that it is always PSD. This proves that any GLM model is convex in its model parameters and thus have no local minima.
 &nbsp;  
 &nbsp;  
 
