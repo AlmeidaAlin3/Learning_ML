@@ -19,11 +19,11 @@ The compromise is to estimate a point value of the parameters (instead of the fu
 
 Estimating the mode of the posterior distribution is also called **maximum a posteriori estimation** (MAP). That is:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/log_likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/log_likelihood.png" title="log-likelihood" alt="log-likelihood" height="25"></a> 
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP.png" title="MAP" alt="MAP" height="32"></a> 
 
 Compare this to the maximum likelihood estimation (MLE) we have seen previously:
 
-<>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MLE.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MLE.png" title="MLE" alt="MLE" height="32"></a> 
 
 In this exercise, we explore the connection between MAP estimation, and common regularization techniques that are applied with MLE estimation. In particular, it will shown how the choice of prior distribution over *θ* (e.g Gaussian, or Laplace prior) is equivalent to different kinds of
 regularization (e.g *L2* or *L1* regularization). 
