@@ -4,26 +4,32 @@
   
 **Exercise 4**  
 The goal in this exercise is to show that the negative log-likelihood (NLL) loss of a GLM is a convex function w.r.t the model parameters. As a reminder, this is convenient because a convex function is one for which any local minimum is also a global minimum.  
-An exponential family distribution is one whose probability density can be represented as:
+An exponential family distribution is one whose probability density can be represented as:  
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/GLM.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/GLM.png" title="GLM" alt="GLM" height="26"></a>
 &nbsp;  
 
 If *η* is scalar and *T(y)=y* the exponential family representation take the form:  
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/GLMsub.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/GLMsub.png" title="GLM subgroup" alt="GLM subgroup" height="28"></a>
 
 &nbsp;  
 **4.a)**  
-The [answer to the question 4.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_a.md) derives an expression for *E[Y|X;θ]* expressed as the gradient of the log-partition function *a* w.r.t the natural parameter *η*. 
+The [answer to the question 4.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_a.md) derives the expression for *E[Y|X;θ]* expressed as the gradient of the log-partition function *a* w.r.t the natural parameter *η*:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/function_a.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/function_a.png" title="Log-partition function a wrt the natural parameter n" alt="Log-partition function a wrt the natural parameter n" height="26"></a>
 
 &nbsp;  
 **4.b)**  
-The [answer to the question 4.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_b.md) derives an expression for the *Var(Y|X;θ)* expressed as the derivative of the mean w.r.t the natural parameter *η*. 
+The [answer to the question 4.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_b.md) derives the expression for the *Var(Y|X;θ)* expressed as the derivative of the mean w.r.t the natural parameter *η*:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/var_func.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/var_func.png" title="Variance function wrt the natural parameter n" alt="Variance function wrt the natural parameter n" height="26"></a>
 
 Questions **4.a** and **4.b** shows that whereas calculating mean and variance of distributions in general involves integrals (hard), surprisingly we can calculate them using derivatives (easy) for exponential family.
 
 &nbsp;  
 **4.c)**  
-The [answer to the question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_c.md) write out the loss function *l(θ)*, the NLL of the distribution, as a function of *θ*. Then, calculates the Hessian of the loss with respect to *θ*, and show that it is always PSD.  
+The [answer to the question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/ex4_c.md) write out the loss function *ℓ(θ)*, the NLL of the distribution, as a function of *θ*. Then, calculates the Hessian of the loss with respect to *θ*, and show that it is always PSD.  
 This proofs that any GLM model is convex in its model parameters and thus have no local minima.
 &nbsp;  
 &nbsp;  
