@@ -21,7 +21,7 @@ Estimating the mode of the posterior distribution is also called **maximum a pos
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP.png" title="MAP" alt="MAP" height="32"></a> 
 
-Compare this to the maximum likelihood estimation (MLE) we have seen previously:
+Compare this to the **maximum likelihood estimation** (MLE) we have seen previously:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MLE.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MLE.png" title="MLE" alt="MLE" height="32"></a> 
 
@@ -30,7 +30,13 @@ regularization (e.g *L2* or *L1* regularization).
 
 &nbsp;  
 **2.a)**  
-aaa
+The [answer to the question 2.a]() shows that, if we assume that **p(θ) = p(θ|x)**, then *θMAP* is:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_marg_indep.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_marg_indep.png" title="MAP for theta and x marginally independent" alt="MAP for theta and x marginally independent" height="24"></a> 
+
+The assumption that *p(θ) = p(θ|x)* will be valid for models such as linear regression where the input *x* are not explicit modeled by *θ*. Note that this means *x* and *θ* are **marginally independent**, but not conditionally independent when y is given.  
+
+
 
 &nbsp;  
 **2.b)**  
