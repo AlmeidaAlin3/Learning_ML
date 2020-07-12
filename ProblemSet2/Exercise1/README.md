@@ -29,7 +29,7 @@ The model optimization goal is to maximize the likelihood estimation given by th
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png" title="likelihood" alt="likelihood" height="65"></a>
 
 The intuition is that large positive number means that x is likely to be positive (y = 1), and negative number means x is negative (y = 0):
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/plot_sigmoid.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/plot_sigmoid.png" title="sigmoid" alt="sigmoid" height="200"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/sigmoid_func.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/sigmoid_func.png" title="sigmoid" alt="sigmoid" height="200"></a>
 
 As the dataset is linearly separable, then for some optimal *θ* the term *(y * θ.T * x)* will always be positive. Remember that *θ* update rule is given by de equation:
 
