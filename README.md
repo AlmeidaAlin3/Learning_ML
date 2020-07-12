@@ -16,7 +16,7 @@
 
 ### **Problem Set #2: Supervised Learning II**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 1:** Logistic Regression: Training stability](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/README.md)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 2:** Model Calibration  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 2:** Model Calibration](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/README.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 3:** Bayesian Interpretation of Regularization  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 4:** Constructing kernels  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 5:** Kernelizing the Perceptron  
