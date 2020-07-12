@@ -12,7 +12,7 @@ Logistic regression tends to output well-calibrated probabilities (this is often
 
 
 &nbsp;  
-**2.a)**
+**2.a)**  
 The gradient of the log likelihood is given by:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/log_likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/log_likelihood.png" title="log-likelihood" alt="log-likelihood" height="25"></a> 
@@ -28,57 +28,12 @@ If we only consider one feature of X, (first row of X.T) we will find:
 This shows that the the model is indeed well-calibrated.
 
 &nbsp;  
-**1.b)**  
-The Datasets *A* and *B* plots are shown below:  
+**2.b)**  
+If we have a binary classification model that we know is perfectly calibrated, it **does not** necessarily imply that the model achieves perfect accuracy. And the converse is also **not true**.  
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/A_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/A_plot.png" title="Dataset A" alt="Dataset A" height="200"></a>  
-*plot i) Dataset A*
-
-&nbsp;  
-
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/B_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/B_plot.png" title="Dataset B" alt="Dataset B" height="200"></a>  
-*plot ii) Dataset B*
-
-&nbsp;  
-From the two plots above we can see that only the dataset *B* is perfectly linearly separable; This is the reason why the model training did not converge.  
-Remember that the model optimization goal is to maximize the likelihood estimation given by the equation:  
-
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png" title="likelihood" alt="likelihood" height="65"></a>
-
-As the dataset is linearly separable, then for some optimal *θ* the term *(y * θ.T * x)* will always be positive; We can see this relationship in the sigmoid curve plot:
-
-&nbsp;&nbsp; <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/sigmoid_func.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/sigmoid_func.png" title="sigmoid" alt="sigmoid" height="185"></a>
-
-It means that *θ* can be multiplied by a larger scalar to get larger *L(θ)*, therefore there are nor only, but infinite number of maximum likelihood estimations.  
-
-&nbsp;  
-**1.c)**   
-Let's verify the proposed solutions. Would it lead to provided training algorithm converging on datasets such as *B*?  
-&nbsp;  
-**i)** *Using a **different constant** learning rate*  
-
-No, It would not solve the problem of convergence since *L(θ)* could still be arbitrarily large.  
-
-&nbsp;  
-**ii)** **Decreasing the learning rate over time**, *for example scaling the initial learning rate by 1/t², where t is the number of gradient descent iterations thus far*  
-
-Yes, when the learning rate is sufficiently small, the update to *θ* would be also very small, and it will be judged as converged by the algorithm.  
-
-&nbsp;  
-**iii)** **Linear scaling** *of the input features*  
-
-No, it would not help since the dataset would still be linearly seperable.  
-
-&nbsp;  
-**iv)** *Adding a **regularization term** ||θ||² to the loss function*  
-
-Yes, adding a regularization term would penalize the model for larger values of *θ*, so it would not assume arbitrarily large values.  
-
-&nbsp;  
-**v)** *Adding **zero-mean Gaussian noise** to the training data or labels*  
-
-Yes, It would very likely make the dataset not linearly seperable.  
-
+For example, suppose a dataset that contains the result got from flipping a biased coin multiple times and it has 50% of positive data (tails).  
+Then a model which always outputs 0.5 will be perfectly calibrated, but not necessarily acurate.  
+On the other hand, a model that outputs 0.75 for positive examples (tails) and 0.25 for negative examples (heads) could have perfect accuracy, but would be not perfectly calibrated.  
 
 &nbsp;  
 **1.d)**  
