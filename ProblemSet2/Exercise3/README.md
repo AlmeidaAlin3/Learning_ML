@@ -70,6 +70,7 @@ where **λ = 1/b** and whose loss is specified as:
 
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_L1_loss.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_L1_loss.png" title="MAP L1 loss" alt="MAP L1 loss" height="30"></a> 
+
 &nbsp;  
 Note: A closed form solution for linear regression problem with *L1* regularization does not exist. To optimize this, we use gradient descent with a random initialization and solve it numerically.
 
