@@ -23,21 +23,16 @@ The Datasets *A* and *B* plots are shown below:
 *plot ii) Dataset B*
 
 &nbsp;  
-From the plots above we can see that only the dataset *B* is a perfectly linearly separable dataset; This is the reason why the model training on dataset *B* did not converge.
-The model optimization goal is to maximize the likelihood estimation given by the equation:  
+From the two plots above we can see that only the dataset *B* is perfectly linearly separable; This is the reason why the model training did not converge.  
+Remember that the model optimization goal is to maximize the likelihood estimation given by the equation:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png" title="likelihood" alt="likelihood" height="65"></a>
 
-The intuition is that large positive number means that x is likely to be positive (y = 1), and negative number means x is negative (y = 0):
+As the dataset is linearly separable, then for some optimal *θ* the term *(y * θ.T * x)* will always be positive; We can see this relationship in the sigmoid curve plot:
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/sigmoid_func.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/sigmoid_func.png" title="sigmoid" alt="sigmoid" height="200"></a>
 
-As the dataset is linearly separable, then for some optimal *θ* the term *(y * θ.T * x)* will always be positive. Remember that *θ* update rule is given by de equation:
-
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/likelihood.png" title="likelihood" alt="likelihood" height="65"></a>
-
-So the algorithm 
-
-
+It means that *θ* can be multiplied by a larger scalar to get larger *L(θ)*, therefore there are nor only, but infinite number of maximum likelihood estimations.
 
 
 
