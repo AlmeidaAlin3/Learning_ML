@@ -8,18 +8,24 @@ The goal of this exercise is to delve deeper into the workings of logistic regre
 
 &nbsp;  
 **1.a)**  
-This exercise provided a [implementation of logistic regression]() that were ran using two labeled datasets *A* and *B*.  
-The most notable difference in training the model on these datasets were that thaining on dataset *A* finished with few iterations, while *B* never converges.
-
-
-
-Given J(θ), the average empirical loss for logistic regression, the [answer to the question 1.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_a.md) shows that the Hessian matrix of J(θ) is **positive semidefinite**; this implies that J(θ) is convex and has no local minima other than global one.  
+This exercise provided a [implementation of logistic regression](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/ex1_a.ipynb) that were ran using two labeled datasets *A* and *B*.  
+The most notable difference in training the model on these datasets were that thaining on dataset *A* finished with few iterations, while *B* never converges.  
 
 &nbsp;  
 **1.b)**  
-The [code for the question 1.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_b.ipynb) trained a **regression** classifier using Newton's Method, starting with θ=0, until the error become smaller than 1x10^-5. The decision boundary that separates the data into two classes is shown below:  
+The Datasets *A* and *B* are shown below:  
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot.png" title="Logistic regression plot" alt="Logistic regression plot" height="200"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/A_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/A_plot.png" title="Dataset A" alt="Dataset A" height="200"></a>  
+*plot i) Dataset A*
+
+&nbsp;  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/B_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/B_plot.png" title="Dataset B" alt="Dataset B" height="200"></a>  
+*plot ii) Dataset B*
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/1b_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise1/img/1b_plot.png" title="Logistic regression plot" alt="Logistic regression plot" height="200"></a>
+
+
 
 &nbsp;  
 **1.c)**  
