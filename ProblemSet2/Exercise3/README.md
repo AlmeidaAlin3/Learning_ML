@@ -34,13 +34,19 @@ The [answer to the question 2.a]() shows that, if we assume that **p(θ) = p(θ|
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_marg_indep.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_marg_indep.png" title="MAP for theta and x marginally independent" alt="MAP for theta and x marginally independent" height="24"></a> 
 
-The assumption that *p(θ) = p(θ|x)* will be valid for models such as linear regression where the input *x* are not explicit modeled by *θ*. Note that this means *x* and *θ* are **marginally independent**, but not conditionally independent when y is given.  
-
-
+The assumption that *p(θ) = p(θ|x)* will be valid for models such as linear regression where the input *x* are not explicit modeled by *θ*. Note that this means *x* and *θ* are **marginally independent**, but not conditionally independent when *y* is given.  
 
 &nbsp;  
 **2.b)**  
-bbb
+Recall that *L2* regularization penalizes the *L2* norm of the parameters while minimizing the loss i.e., negative log likelihood in case of probabilistic models. 
+
+The [answer to the question 2.b]() shows that MAP estimation with a zero-mean Gaussian prior over *θ*, specifically **θ ∼ Normal(0, η².I)**, is equivalent to applying *L2* regularization with MLE estimation. That is:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_reg1.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_reg1.png" title="MAP with a zero-mean Gaussian prior over θ" alt="MAP with a zero-mean Gaussian prior over θ" height="35"></a>  
+
+where **λ = 1/(2η²)**:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_reg2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_reg2.png" title="MAP with a zero-mean Gaussian prior over θ" alt="MAP with a zero-mean Gaussian prior over θ" height="45"></a> 
 
 &nbsp;  
 **2.c)**  
