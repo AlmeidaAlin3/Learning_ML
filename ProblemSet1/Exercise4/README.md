@@ -3,7 +3,9 @@
 ## Convexity of Generalized Linear Models  
   
 **Exercise 4**  
-The goal in this exercise is to show that the negative log-likelihood (NLL) loss of a GLM is a convex function w.r.t the model parameters, specifically those related to its use of Exponential Family distributions to model the output. As a reminder, this is convenient because a convex function is one for which any local minimum is also a global minimum.  
+In this exercise we will explore and show some nice properties of Generalized Linear Models, specifically those related to its use of Exponential Family distributions to model the output. Most commonly, GLMs are trained by using the negative log-likelihood (NLL) as the loss function. This is mathematically equivalent to Maximum Likelihood Estimation (i.e., maximizing the log-likelihood is equivalent to minimizing the negative log-likelihood). 
+
+In this problem, our goal is to show that the NLL loss of a GLM is a convex function w.r.t the model parameters. As a reminder, this is convenient because a convex function is one for which any local minimum is also a global minimum.
 
 An exponential family distribution is one whose probability density can be represented as:  
 
@@ -12,7 +14,10 @@ An exponential family distribution is one whose probability density can be repre
 
 If *η* is scalar and *T(y)=y* the exponential family representation take the form:  
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/GLMsub.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/GLMsub.png" title="GLM subgroup" alt="GLM subgroup" height="28"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/GLMsub.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/GLMsub.png" title="GLM subgroup" alt="GLM subgroup" height="29"></a>
+
+where *η* is the natural parameter of the distribution. Moreover, in a Generalized Linear Model, **η** is modeled as **(θ.T).x**, where *x ∈ IRd* are the input features of the example, and *θ ∈ IRd* are learnable parameters. 
+
 
 &nbsp;  
 **4.a)**  
