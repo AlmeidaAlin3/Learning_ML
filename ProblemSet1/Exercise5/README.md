@@ -7,10 +7,12 @@ The goal of this exercise is to generalize the linear regression problem to the 
 
 &nbsp;  
 **5.a.i)**  
-For linear regression:  
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_linreg.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_linreg.png" title="Cost function for Linear Regression" alt="Cost function for Linear Regression" height="50"></a>
+Consider a linear regression problem in which we want to “weight” different training examples differently. Specifically, suppose we want to minimize:  
 
-For a locally weighted linear regression (as shown in the [answer to the question 5.a.i](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_i.md))  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_locally_weighted1.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_locally_weighted1.png" title="Cost function for Locally Weighted Linear Regression" alt="Cost function for Locally Weighted Linear Regression" height="60"></a>
+
+As shown in the [answer to the question 5.a.i](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/ex5_a_i.md), it can also be written as:
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_locally_weighted.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_locally_weighted.png" title="Cost function for Locally Weighted Linear Regression" alt="Cost function for Locally Weighted Linear Regression" height="31"></a>
 
 
