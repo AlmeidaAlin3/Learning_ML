@@ -71,8 +71,8 @@ plot ii) GDA
 **1.g)**  
 GDA does seem to perform worse than logistic regression on Dataset1 because the distribution of this dataset is not gaussian.  
 
-&nbsp; 
-&nbsp; 
+&nbsp;   
+&nbsp;   
 *Remark: We saw that the true probability p(t|x) was only a constant factor away from p(y|x). This means, if our task is to only rank examples (i.e. sort them) in a particular order, then in fact we do not even need to estimate α. The rank based on p(y|x) will agree with the rank based on p(t|x).*
 
 
