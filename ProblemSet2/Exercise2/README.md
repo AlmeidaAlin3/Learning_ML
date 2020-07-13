@@ -16,15 +16,15 @@ Logistic regression tends to output well-calibrated probabilities (this is often
 In order for the model to be considered well-calibrated, given any range of probabilities *(a, b)* such that *0 ≤ a < b ≤ 1*, and training examples
 *x^(i)* where the model outputs *h(x^(i))* fall in the range *(a, b)*, the fraction of positives in that set of examples should be equal to the average of the model outputs for those examples.  
 
-The gradient of the log likelihood is given by:  
+Remember that the gradient of the log likelihood is given by:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/log_likelihood.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/log_likelihood.png" title="log-likelihood" alt="log-likelihood" height="25"></a> 
 
-For the best θ, we will have:
+and for the best *θ*, we will have:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/best_theta.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/best_theta.png" title="solution" alt="solution" height="30"></a>
 
-If we only consider one feature of X, (first row of X.T) we will find:
+If we only consider one feature of *X*, (first row of *X.T*) we will find:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/proof.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise2/img/proof.png" title="proof" alt="proof" height="60"></a>
 
