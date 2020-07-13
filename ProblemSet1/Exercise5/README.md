@@ -15,6 +15,9 @@ As shown in the [answer to the question 5.a.i](https://github.com/AlmeidaAlin3/M
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_locally_weighted.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/cost_locally_weighted.png" title="Cost function for Locally Weighted Linear Regression" alt="Cost function for Locally Weighted Linear Regression" height="31"></a>
 
+where:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/Wij.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise5/img/Wij.png" title="weight matrix" alt="weight matrix" height="65"></a>
 
 &nbsp;  
 **5.a.ii)**  
