@@ -7,7 +7,7 @@ The goal in this exercise is to get a deeper understanding of the similarities a
 
 &nbsp;  
 **1.a)**  
-Given J(θ), the average empirical loss for logistic regression:
+Given the average empirical loss for logistic regression:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/LR_loss.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/LR_loss.png" title="LR loss" alt="LR loss" height="50"></a>
 
@@ -15,21 +15,21 @@ where:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/h_LR.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/h_LR.png" title="LR hypothesis" alt="LR hypothesis" height="25"></a>
 
-the [answer to the question 1.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_a.md) shows that the Hessian matrix of J(θ) is **positive semidefinite**; this implies that J(θ) is convex and has no local minima other than global one.  
+the [answer to the question 1.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_a.md) shows that the Hessian matrix of *J(θ)* is **positive semidefinite**; this implies that *J(θ)* is convex and has no local minima other than global one.  
 
 &nbsp;  
 **1.b)**  
-The [code for the question 1.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_b.ipynb) trained a **regression** classifier using Newton's Method, starting with θ=0, until the error become smaller than 1x10^-5. The decision boundary that separates the data into two classes is shown below:  
+The [code for the question 1.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_b.ipynb) trained a **regression** classifier using Newton's Method, starting with *θ=0*, until the error become smaller than 1x10^-5. The decision boundary that separates the data into two classes is shown below:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/1b_plot.png" title="Logistic regression plot" alt="Logistic regression plot" height="200"></a>
 
 &nbsp;  
 **1.c)**  
-In GDA the joint distribution of *(x, y)* by the following equations:
+In GDA the joint distribution of *(x, y)* is modeled by the following equations:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDA.png" title="GDA joint distribution" alt="GDA joint distribution" height="150"></a>
 
-Suppose we have already fit the parameters of our model and now want to predict *y* given a new point *x*. To show that GDA results in a classifier that has a linear decision boundary, the [answer to the question 1.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_c.md) shows that,  the posterior distribution can be written as:  
+Suppose we have already fit the parameters of our model and now want to predict *y* given a new point *x*. To show that **GDA** results in a classifier that has a linear decision boundary, the [answer to the question 1.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_c.md) shows that,  the posterior distribution can be written as:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAposterior.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/GDAposterior.png" title="GDA posterior distribution" alt="GDA posterior distribution" height="43"></a>
 
