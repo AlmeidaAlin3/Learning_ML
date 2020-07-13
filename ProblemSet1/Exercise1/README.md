@@ -7,7 +7,11 @@ The goal in this exercise is to get a deeper understanding of the similarities a
 
 &nbsp;  
 **1.a)**  
-Given J(θ), the average empirical loss for logistic regression, the [answer to the question 1.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_a.md) shows that the Hessian matrix of J(θ) is **positive semidefinite**; this implies that J(θ) is convex and has no local minima other than global one.  
+Given J(θ), the average empirical loss for logistic regression
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/LR_loss.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/img/LR_loss.png" title="LR loss" alt="LR loss" height="50"></a>
+
+the [answer to the question 1.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise1/ex1_a.md) shows that the Hessian matrix of J(θ) is **positive semidefinite**; this implies that J(θ) is convex and has no local minima other than global one.  
 
 &nbsp;  
 **1.b)**  
