@@ -3,7 +3,8 @@
 ## Convexity of Generalized Linear Models  
   
 **Exercise 4**  
-The goal in this exercise is to show that the negative log-likelihood (NLL) loss of a GLM is a convex function w.r.t the model parameters. As a reminder, this is convenient because a convex function is one for which any local minimum is also a global minimum.  
+The goal in this exercise is to show that the negative log-likelihood (NLL) loss of a GLM is a convex function w.r.t the model parameters, specifically those related to its use of Exponential Family distributions to model the output. As a reminder, this is convenient because a convex function is one for which any local minimum is also a global minimum.  
+
 An exponential family distribution is one whose probability density can be represented as:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/GLM.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet1/Exercise4/img/GLM.png" title="GLM" alt="GLM" height="26"></a>
