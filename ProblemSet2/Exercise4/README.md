@@ -21,50 +21,66 @@ For each of the functions **K** below, state whether it is necessarily a kernel.
 prove it; if you think it isn’t, give a counter-example.
 
 &nbsp;  
+&nbsp;  
 **4.a)**  
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4a.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4a.png" title="4a" alt="4a" height="24"></a> 
 
 **Yes**, it is a kernel. It is proved in the [solution 4.a]().  
 
 &nbsp;  
+&nbsp;  
 **4.b)**  
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4b.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4b.png" title="4b" alt="4b" height="24"></a> 
 
 **No**, it is not a valid kernel. A counter-example is given in the [solution 4.b]().
 
 
 &nbsp;  
+&nbsp;  
 **4.c)**  
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4c.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4c.png" title="4c" alt="4c" height="24"></a> 
 
 **Yes**, it is a kernel. It is proved in the [solution 4.c]().
 
 &nbsp;  
+&nbsp;  
 **4.d)**  
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4d.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4d.png" title="4d" alt="4d" height="24"></a> 
 
 **No**, it is not a valid kernel. A counter-example is given in the [solution 4.d]().
 
 &nbsp;  
+&nbsp;  
 **4.e)**  
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4e.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4e.png" title="4e" alt="4e" height="24"></a> 
 
 **Yes**, it is a kernel. It is proved in the [solution 4.e]()
 
 &nbsp;  
+&nbsp;  
 **4.f)**  
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4f.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4f.png" title="4f" alt="4f" height="24"></a> 
 
 **Yes**, it is a kernel. It is proved in the [solution 4.f]()
 
 &nbsp;  
+&nbsp;  
 **4.g)**  
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4g.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4g.png" title="4g" alt="4g" height="24"></a> 
 
 **Yes**, it is a kernel. It is proved in the [solution 4.g]()
 
 &nbsp;  
+&nbsp;  
 **4.h)**  
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4h.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/img/4h.png" title="4h" alt="4h" height="24"></a> 
 
 **Yes**, it is a kernel. It is proved in the [solution 4.h]()
