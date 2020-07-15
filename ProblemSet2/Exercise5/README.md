@@ -7,7 +7,8 @@
 Let there be a binary classification problem with **y** ∈ {0, 1}. The perceptron uses hypotheses of the form:  
 **hθ(x) = g(θ.T . x)**, 
 
-where: **g(z) = sign(z) = 1** if **z ≥ 0** or **0** otherwise.  
+where:  
+**g(z) = sign(z) = 1** if **z ≥ 0** or **0** otherwise.  
 
 In this problem we will consider a stochastic gradient descent-like implementation of the perceptron algorithm where each update to the parameters *θ* is made
 using only one training example. However, unlike stochastic gradient descent, the perceptron algorithm will only make one pass through the entire training set. The update rule for this version of the perceptron algorithm is given by:
