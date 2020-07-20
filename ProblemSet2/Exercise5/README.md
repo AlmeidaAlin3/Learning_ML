@@ -17,7 +17,7 @@ using only one training example. However, unlike stochastic gradient descent, th
 
 where *θ^(i)* is the value of the parameters after the algorithm has seen the first *i* training examples. Prior to seeing any training examples, *θ* is initialized to the vector of zeros.
 
-**4.a)**  
+**5.a)**  
 
 
 
