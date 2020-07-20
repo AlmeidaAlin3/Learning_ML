@@ -22,7 +22,7 @@ where *θ^(i)* is the value of the parameters after the algorithm has seen the f
 
 &nbsp;  
 **5.b)**  
-
+[Kernelizing the Perceptron](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/ex5_b.ipynb)
 
 
 
