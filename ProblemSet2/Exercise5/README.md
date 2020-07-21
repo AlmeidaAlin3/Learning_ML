@@ -19,10 +19,37 @@ where *θ^(i)* is the value of the parameters after the algorithm has seen the f
 
 &nbsp;  
 **5.a)**  
+The answer to the question 5.a describes how to apply the *kernel trick* to the perceptron to make it work in high-dimensional feature space **φ**, but without ever explicity computing **φ(x)**. Specifically:  
+
+**i)**    
+The [answer 5.a.i]() shows how implicitly represent the high-dimensional parameter vector **θ^(i)**, including how the initial value **θ^(0) = 0** is represented.  
+
+**ii)**   
+The [answer 5.a.ii]() shows how efficiently make a prediction on a new input **x^(i+1)**.  
+
+**iii)**  
+The [answer 5.a.iii]() shows how to modify the update rule given to perform an update to **θ** on a new training example **( x^(i+1) , y^(i+1) )**. 
 
 &nbsp;  
 **5.b)**  
-[Kernelizing the Perceptron](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/ex5_b.ipynb)
+The [code for the question 5.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/ex5_b.ipynb) implements the perceptron using the answers given in 5.a.  
+
+&nbsp;  
+**5.c)**   
+Then we ran the perceptron using two kernels, a **dot product** kernel and an **radial basis function** (rbf) kernel. The plots are shown below:  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png" title="Dot-product kernel plot" alt="Dot-product kernel plot" height="200"></a>
+
+*plot i) Dot-product kernel*  
+
+&nbsp;  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png" title="Radial basis function kernel plot" alt="Radial basis function kernel plot" height="200"></a>
+*plot ii) Radial basis function kernel*
+
+&nbsp;  
+The dot-product kernel shown in the *plot i* performs extremely poorly in classifying the points beacuse using a dot-product is equivalent to use **φ(x^(i)) = x^(i)**, but the data is not linearly seperable.  
+
+
 
 
 
