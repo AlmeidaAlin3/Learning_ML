@@ -18,7 +18,6 @@ using only one training example. However, unlike stochastic gradient descent, th
 where *θ^(i)* is the value of the parameters after the algorithm has seen the first *i* training examples. Prior to seeing any training examples, *θ* is initialized to the vector of zeros.  
 
 &nbsp;  
-&nbsp;  
 **5.a)**  
 The answer to the question 5.a describes how to apply the *kernel trick* to the perceptron to make it work in high-dimensional feature space **φ**, but without ever explicity computing **φ(x)**. Specifically:  
 
@@ -32,22 +31,18 @@ The [answer 5.a.ii]() shows how efficiently make a prediction on a new input **x
 The [answer 5.a.iii]() shows how to modify the update rule given to perform an update to **θ** on a new training example **( x^(i+1) , y^(i+1) )**.  
 
 &nbsp;  
-&nbsp;  
 **5.b)**  
 The [code for the question 5.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/ex5_b.ipynb) implements the perceptron using the answers given in 5.a.  
 
 &nbsp;  
-&nbsp;  
 **5.c)**   
 Then we ran the perceptron using two kernels, a **dot product** kernel and an **radial basis function** (rbf) kernel. The plots are shown below:  
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png" title="Dot-product kernel plot" alt="Dot-product kernel plot" height="200"></a>
-
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png" title="Dot-product kernel plot" alt="Dot-product kernel plot" height="200"></a>  
 *plot i) Dot-product kernel*  
 
 &nbsp;  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png" title="Radial basis function kernel plot" alt="Radial basis function kernel plot" height="200"></a>  
-
 *plot ii) Radial basis function kernel*
 
 &nbsp;  
