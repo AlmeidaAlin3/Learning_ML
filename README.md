@@ -20,7 +20,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 3:** Bayesian Interpretation of Regularization](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/README.md)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 4:** Constructing kernels](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise4/README.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 5:** Kernelizing the Perceptron](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/README.md)     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 6:** Spam classification  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 6:** Spam classification](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise6/README.md)        
 
 ### **Problem Set #3: Deep Learning & Unsupervised Learning**   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 1:** A Simple Neural Network   
