@@ -42,7 +42,7 @@ Then we ran the perceptron using two kernels, a **dot product** kernel and an **
 *plot i) Dot-product kernel*  
 
 &nbsp;  
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png" title="Radial basis function kernel plot" alt="Radial basis function kernel plot" height="200"></a>  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_ii.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_ii.png" title="Radial basis function kernel plot" alt="Radial basis function kernel plot" height="200"></a>  
 *plot ii) Radial basis function kernel*
 
 &nbsp;  
