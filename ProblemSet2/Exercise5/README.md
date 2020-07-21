@@ -18,6 +18,7 @@ using only one training example. However, unlike stochastic gradient descent, th
 where *θ^(i)* is the value of the parameters after the algorithm has seen the first *i* training examples. Prior to seeing any training examples, *θ* is initialized to the vector of zeros.  
 
 &nbsp;  
+&nbsp;  
 **5.a)**  
 The answer to the question 5.a describes how to apply the *kernel trick* to the perceptron to make it work in high-dimensional feature space **φ**, but without ever explicity computing **φ(x)**. Specifically:  
 
@@ -31,9 +32,11 @@ The [answer 5.a.ii]() shows how efficiently make a prediction on a new input **x
 The [answer 5.a.iii]() shows how to modify the update rule given to perform an update to **θ** on a new training example **( x^(i+1) , y^(i+1) )**.  
 
 &nbsp;  
+&nbsp;  
 **5.b)**  
 The [code for the question 5.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/ex5_b.ipynb) implements the perceptron using the answers given in 5.a.  
 
+&nbsp;  
 &nbsp;  
 **5.c)**   
 Then we ran the perceptron using two kernels, a **dot product** kernel and an **radial basis function** (rbf) kernel. The plots are shown below:  
@@ -51,8 +54,7 @@ Then we ran the perceptron using two kernels, a **dot product** kernel and an **
 The dot-product kernel shown in the *plot i* performs extremely poorly in classifying the points beacuse using a dot-product is equivalent to use **φ(x^(i)) = x^(i)**, but the data is not linearly seperable.  
 
 
-
-
+&nbsp;  
 
 &nbsp;  
 ---
