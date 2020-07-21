@@ -4,6 +4,16 @@
 ## Spam classification
   
 **Exercise 6**  
+In this problem, we will use the **Naive Bayes** algorithm and an **SVM** to build a spam classifier. In recent years, spam on electronic media has been a growing concern. Here, we’ll build a classifier to distinguish between real messages, and spam messages. For this, we will be building a classifier to detect SMS spam messages. The goal of this assignment is to build a classifier from scratch that can tell the difference the spam and
+non-spam messages using the text of the SMS message.  
+
+&nbsp;  
+**6.a)**  
+
+
+&nbsp;  
+**6.b)**  
+
 
 
 &nbsp;  
