@@ -8,11 +8,12 @@ In this problem, we will use the **Naive Bayes** algorithm and an **SVM** to bui
 non-spam messages using the text of the SMS message.  
 
 &nbsp;  
-**6.a)**  
+The [code for this problem]() uses the **get_words**, **create_dictionary**, and **transform_text** functions for processing the the spam messages into numpy arrays that can be fed into machine learning models. It also implements a **Naive Bayes** classifier for spam classification with multinomial event model and Laplace smoothing.  
 
+We verify that some tokens are particularly indicative of an SMS being in a SPAM class. The top 5 most indicative tokens are:  
+*claim*, *won*, *prize*, *tone* and *urgent!*.
 
-&nbsp;  
-**6.b)**  
+Then, using **SVM** as an alternative machine learning algorithm, we find the best SVM radius wich maximizes accuracy on the validation dataset; The radius that works best is *0.1* achieving an accuracy of 96%. 
 
 
 
