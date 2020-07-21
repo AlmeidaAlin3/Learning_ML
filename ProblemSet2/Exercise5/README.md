@@ -15,7 +15,7 @@ using only one training example. However, unlike stochastic gradient descent, th
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/perceptron_update.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/perceptron_update.png" title="perceptron update rule" alt="perceptron update rule" height="35"></a> 
 
-where *θ^(i)* is the value of the parameters after the algorithm has seen the first *i* training examples. Prior to seeing any training examples, *θ* is initialized to the vector of zeros.
+where *θ^(i)* is the value of the parameters after the algorithm has seen the first *i* training examples. Prior to seeing any training examples, *θ* is initialized to the vector of zeros.  
 
 &nbsp;  
 **5.a)**  
@@ -28,7 +28,7 @@ The [answer 5.a.i]() shows how implicitly represent the high-dimensional paramet
 The [answer 5.a.ii]() shows how efficiently make a prediction on a new input **x^(i+1)**.  
 
 **iii)**  
-The [answer 5.a.iii]() shows how to modify the update rule given to perform an update to **θ** on a new training example **( x^(i+1) , y^(i+1) )**. 
+The [answer 5.a.iii]() shows how to modify the update rule given to perform an update to **θ** on a new training example **( x^(i+1) , y^(i+1) )**.  
 
 &nbsp;  
 **5.b)**  
@@ -43,7 +43,8 @@ Then we ran the perceptron using two kernels, a **dot product** kernel and an **
 *plot i) Dot-product kernel*  
 
 &nbsp;  
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png" title="Radial basis function kernel plot" alt="Radial basis function kernel plot" height="200"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5c_plot_i.png" title="Radial basis function kernel plot" alt="Radial basis function kernel plot" height="200"></a>  
+
 *plot ii) Radial basis function kernel*
 
 &nbsp;  
