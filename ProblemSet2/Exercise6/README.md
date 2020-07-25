@@ -5,9 +5,8 @@
   
 **Exercise 6**  
 In this problem, we will use the **Naive Bayes** algorithm and an **SVM** to build a spam classifier. In recent years, spam on electronic media has been a growing concern. Here, we’ll build a classifier to distinguish between real messages, and spam messages. For this, we will be building a classifier to detect SMS spam messages. The goal of this assignment is to build a classifier from scratch that can tell the difference the spam and
-non-spam messages using the text of the SMS message.  
+non-spam messages using the text of the SMS message.
 
-&nbsp;  
 The [code for this problem](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise6/ex6.ipynb) uses the **get_words**, **create_dictionary**, and **transform_text** functions for processing the the spam messages into numpy arrays that can be fed into machine learning models. It also implements a **Naive Bayes** classifier for spam classification with multinomial event model and Laplace smoothing.  
 
 We verify that some tokens are particularly indicative of an SMS being in a SPAM class. The top 5 most indicative tokens are:  
