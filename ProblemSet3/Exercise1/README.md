@@ -43,9 +43,7 @@ Now, lets compute the partial derivatives:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/l.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/l.png" title="l" alt="l" height="28"></a>  
 
-&nbsp;  
-
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dl_3.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dl_3.png" title="dl" alt="dl" height="45"></a>  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dl_3.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dl_3.png" title="dl" alt="dl" height="45"></a>
 
 
 &nbsp;  
