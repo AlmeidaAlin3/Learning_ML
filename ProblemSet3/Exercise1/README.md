@@ -48,11 +48,19 @@ Now, lets compute the partial derivatives:
 
 &nbsp;  
 
-<o^(i)>  
-<do^(i)>  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/o.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/o.png" title="o" alt="o" height="28"></a>  
 
-<h2^(i)>  
-<dh2^(i)>  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/do.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/do.png" title="do" alt="do" height="45"></a>
+
+
+&nbsp;  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/h2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/h2.png" title="h2" alt="h2" height="28"></a>  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dh2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dh2.png" title="dh2" alt="dh2" height="45"></a>
+
+
+&nbsp;  
 
 Combining the equations, as shown in the [answer to the question 1.a](), we get the equation for gradient descent update:  
 
