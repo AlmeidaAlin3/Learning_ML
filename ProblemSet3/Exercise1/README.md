@@ -8,7 +8,6 @@
 Let **X = {x^(1), ..., x^(m)}** be a dataset of **m samples** with **2 features**. The samples are classified into 2 categories with labels **y^(i) ∈ {0, 1}**. A scatter plot of the dataset is shown below:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dataset_simpleNN.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dataset_simpleNN.png" title="Dataset simple NN" alt="Dataset simple NN" height="200"></a>  
-*plot i) Dataset*  
 
 &nbsp;  
 In this exercise we want to we want to perform binary classification using a simple neural network with the architecture shown:  
