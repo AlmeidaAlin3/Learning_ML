@@ -29,21 +29,23 @@ Suppose we use the **sigmoid function** as the the activation function for **h1*
 
 Let:  
 
-<l^(i)=...>  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/l.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/l.png" title="l" alt="l" height="28"></a>  
 
 Consider we want the gradient descent update to **w1,2^[1]**, then:  
 
-<dl/dw1,2^[1]=1/m...>  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dl_1.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dl_1.png" title="dl" alt="dl" height="55"></a>  
 
 That is:  
 
-<dl/dw1,2^[1]=dl^(i)/do^(i)...>  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dl_2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dl_2.png" title="dl" alt="dl" height="55"></a>  
 
 
 Now, lets compute the partial derivatives:  
 
-<l^(i)>  
-<dl^(i)>  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/l.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/l.png" title="l" alt="l" height="28"></a>  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dl_3.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dl_3.png" title="dl" alt="dl" height="45"></a>  
+
 
 <o^(i)>  
 <do^(i)>  
@@ -58,7 +60,7 @@ Combining the equations, as shown in the [answer to the question 1.a](), we get 
 
 &nbsp;  
 **1.b)**  
-Now, suppose instead of using the sigmoid function for the activation function for **h1** , **h2** , **h3** and **o**, we instead used the **step function** f(x), defined as:  
+Now, suppose instead of using the sigmoid function for the activation function for **h1**, **h2**, **h3** and **o**, we instead used the **step function** f(x), defined as:  
 
 <step function>  
   
@@ -75,13 +77,13 @@ if we make:
 **h1 = 1**, then **x1 ≤ 0.5**  
 **h2 = 1**, then **x2 ≤ 0.5**  
 **h3 = 1**, then **x1 + x2 ≤ 4**  
-**o = 1** , then **h1 + h2 + h3 ≥ 1**  
+**o = 1** &nbsp;, then **h1 + h2 + h3 ≥ 1**  
 
 Thus **o = 1** if and only if the points are not in the triangle region. The weights can then be determined using these equations as show in the [code for the question 1.b]().  
 
 &nbsp;  
 **1.c)**  
-On the other hand, if we let the activation functions for *h1* , *h2* , *h3* be the **linear function** *f(x) = x* and the activation function for *o* be the same **step function** as before, it is not possible to have a set of weights that allow the neural network to classify the dataset with 100% accuracy.  
+On the other hand, if we let the activation functions for *h1*, *h2*, *h3* be the **linear function** *f(x) = x* and the activation function for *o* be the same **step function** as before, it is not possible to have a set of weights that allow the neural network to classify the dataset with 100% accuracy.  
 Note that in this case we have:  
 
 <h=>  
