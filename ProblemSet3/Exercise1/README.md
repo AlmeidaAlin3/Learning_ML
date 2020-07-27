@@ -59,7 +59,7 @@ The **h2** function:
 
 &nbsp;  
 
-Combining the equations, as shown in the [answer to the question 1.a](), we get the equation for gradient descent update:  
+Combining the equations, as shown in the [answer to the question 1.a](), we get the equation for gradient descent update:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/grad.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/grad.png" title="equation for gradient descent update" alt="equation for gradient descent update" height="60"></a>
 
@@ -70,16 +70,12 @@ Now, suppose instead of using the sigmoid function for the activation function f
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/step_function.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/step_function.png" title="step function" alt="step function" height="61"></a>
   
-As verified in the [answer to the question 2.a](), it is possible to have a set of weights that allow the neural network to classify the dataset with 100% accuracy.  
-
-The three lines can be used to determine the decision boundary:  
-
+As verified in the [answer to the question 2.a](), it is possible to have a set of weights that allow the neural network to classify the dataset with 100% accuracy. Three lines can be used to determine the decision boundary:  
 **x1 = 0.5**   
 **x2 = 0.5**  
 **x1 + x2 = 4**  
 
 if we make:  
-
 **h1 = 1**, then **x1 ≤ 0.5**  
 **h2 = 1**, then **x2 ≤ 0.5**  
 **h3 = 1**, then **x1 + x2 ≤ 4**  
