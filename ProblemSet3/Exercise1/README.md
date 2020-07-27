@@ -18,17 +18,14 @@ In this exercise we want to we want to perform binary classification using a sim
 &nbsp;  
 and for the loss function, we’ll use **average squared loss** (instead of the usual negative log-likelihood):
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/AverageSquareLoss.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/AverageSquareLoss.png" title="Average Square Loss" alt="Average Square Loss" height="58"></a>
-
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/AverageSquareLoss.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/AverageSquareLoss.png" title="Average Square Loss" alt="Average Square Loss" height="58"></a>  
 where *o^(i)* is the result of the output neuron for example *i*.  
 
 
 &nbsp;  
 **1.a)**  
 Suppose we use the **sigmoid function** as the the activation function for **h1**, **h2**, **h3** and **o** and **α** is the learning rate.  
-
 Let:  
-
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/l.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/l.png" title="l" alt="l" height="28"></a>  
 
 Consider we want the gradient descent update to **w1,2^[1]**, then:  
