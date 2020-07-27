@@ -16,10 +16,9 @@ In this exercise we want to we want to perform binary classification using a sim
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/arq_simpleNN.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/arq_simpleNN.png" title="Architecture simple NN" alt="Architecture simple NN" height="150"></a>
 
 &nbsp;  
-and for the loss function, we’ll use **average squared loss** (instead of the usual negative log-likelihood):
+and for the loss function, we’ll use **average squared loss** (instead of the usual negative log-likelihood), where *o^(i)* is the result of the output neuron for example *i*:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/AverageSquareLoss.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/AverageSquareLoss.png" title="Average Square Loss" alt="Average Square Loss" height="58"></a>  
-where *o^(i)* is the result of the output neuron for example *i*.  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/AverageSquareLoss.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/AverageSquareLoss.png" title="Average Square Loss" alt="Average Square Loss" height="58"></a>    
 
 
 &nbsp;  
