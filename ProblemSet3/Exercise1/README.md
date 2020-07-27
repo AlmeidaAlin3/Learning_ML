@@ -66,9 +66,9 @@ Combining the equations, as shown in the [answer to the question 1.a](), we get 
 
 &nbsp;  
 **1.b)**  
-Now, suppose instead of using the sigmoid function for the activation function for **h1**, **h2**, **h3** and **o**, we instead used the **step function** f(x), defined as:  
+Now, suppose instead of using the sigmoid function for the activation function for **h1**, **h2**, **h3** and **o**, we instead used the **step function** f(x), defined as:
 
-<step function>  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/step_function.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/step_function.png" title="step function" alt="step function" height="61"></a>
   
 As verified in the [answer to the question 2.a](), it is possible to have a set of weights that allow the neural network to classify the dataset with 100% accuracy.  
 
