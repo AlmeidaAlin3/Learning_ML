@@ -5,10 +5,10 @@
 ## A Simple Neural Network
   
 **Exercise 1**  
-Let **X = {x^(1), ..., x^(m)}** be a dataset of **m samples** with **2 features**. The samples are classified into 2 categories with labels **y^(i)** ∈ {0, 1}. A scatter plot of the dataset is shown below:
+Let **X = {x^(1), ..., x^(m)}** be a dataset of **m samples** with **2 features**. The samples are classified into 2 categories with labels **y^(i) ∈ {0, 1}**. A scatter plot of the dataset is shown below:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dataset_simpleNN.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dataset_simpleNN.png" title="Dataset simple NN" alt="Dataset simple NN" height="200"></a>  
-*plot i) Dataset X*  
+*plot i) Dataset*  
 
 &nbsp;  
 In this exercise we want to we want to perform binary classification using a simple neural network with the architecture:  
@@ -25,7 +25,69 @@ where *o^(i)* is the result of the output neuron for example *i*.
 
 &nbsp;  
 **1.a)**  
+Suppose we use the **sigmoid function** as the the activation function for **h1**, **h2**, **h3** and **o** and **α** is the learning rate.  
 
+Let:  
+
+<l^(i)=...>  
+
+Consider we want the gradient descent update to **w1,2^[1]**, then:  
+
+<dl/dw1,2^[1]=1/m...>  
+
+That is:  
+
+<dl/dw1,2^[1]=dl^(i)/do^(i)...>  
+
+
+Now, lets compute the partial derivatives:  
+
+<l^(i)>  
+<dl^(i)>  
+
+<o^(i)>  
+<do^(i)>  
+
+<h2^(i)>  
+<dh2^(i)>  
+
+Combining the equations, as shown in the [answer to the question 1.a](), we get the equation for gradient descent update:  
+
+<dl/dw1,2^[1]=sum(...)>  
+
+
+&nbsp;  
+**1.b)**  
+Now, suppose instead of using the sigmoid function for the activation function for **h1** , **h2** , **h3** and **o**, we instead used the **step function** f(x), defined as:  
+
+<step function>  
+  
+As verified in the [answer to the question 2.a](), it is possible to have a set of weights that allow the neural network to classify the dataset with 100% accuracy.  
+
+The three lines can be used to determine the decision boundary:  
+
+**x1 = 0.5**   
+**x2 = 0.5**  
+**x1 + x2 = 4**  
+
+if we make:  
+
+**h1 = 1**, then **x1 ≤ 0.5**  
+**h2 = 1**, then **x2 ≤ 0.5**  
+**h3 = 1**, then **x1 + x2 ≤ 4**  
+**o = 1** , then **h1 + h2 + h3 ≥ 1**  
+
+Thus **o = 1** if and only if the points are not in the triangle region. The weights can then be determined using these equations as show in the [code for the question 1.b]().  
+
+&nbsp;  
+**1.c)**  
+On the other hand, if we let the activation functions for *h1* , *h2* , *h3* be the **linear function** *f(x) = x* and the activation function for *o* be the same **step function** as before, it is not possible to have a set of weights that allow the neural network to classify the dataset with 100% accuracy.  
+Note that in this case we have:  
+
+<h=>  
+<o=>
+
+The decision boundary will be a single line which cannot separate the two classes.
 
 
 &nbsp;  
