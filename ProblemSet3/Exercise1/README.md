@@ -88,8 +88,7 @@ Thus **o = 1** if and only if the points are not in the triangle region. The wei
 On the other hand, if we let the activation functions for *h1*, *h2*, *h3* be the **linear function** *f(x) = x* and the activation function for *o* be the same **step function** as before, it is not possible to have a set of weights that allow the neural network to classify the dataset with 100% accuracy.  
 Note that in this case we have:  
 
-<h=>  
-<o=>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/h_step.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/h_step.png" title="h linear" alt="h lienar" height="59"></a>
 
 The decision boundary will be a single line which cannot separate the two classes.
 
