@@ -41,12 +41,16 @@ That is:
 &nbsp;  
 Now, lets compute the partial derivatives:
 
+The **l** function:  
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/l.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/l.png" title="l" alt="l" height="28"></a>  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dl_3.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dl_3.png" title="dl" alt="dl" height="45"></a>
 
 
 &nbsp;  
+
+The **output** function:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/output.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/output.png" title="output" alt="output" height="31"></a>  
 
@@ -55,9 +59,11 @@ Now, lets compute the partial derivatives:
 
 &nbsp;  
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/h2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/h2.png" title="h2" alt="h2" height="35"></a>  
+The **h2** function:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dh2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dh2.png" title="dh2" alt="dh2" height="55"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/h2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/h2.png" title="h2" alt="h2" height="40"></a>  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dh2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/dh2.png" title="dh2" alt="dh2" height="60"></a>
 
 
 &nbsp;  
