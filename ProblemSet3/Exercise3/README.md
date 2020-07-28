@@ -137,11 +137,11 @@ So we have two equations with two unknowns **d** and **λ**, which can be someti
 **3.f)**   
 Finally, we will see how this new natural gradient based optimization is actually equivalent to Newton’s method for Generalized Linear Models. 
 
-The natural gradient update rule is given by:
+The **natural gradient update rule** is given by:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/natural_gradient_update.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/natural_gradient_update.png" title="Natural gradient update rule" alt="Natural gradient update rule" height="28"></a>
 
-And Newton’s rule gives
+And **Newton’s update rule** gives:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/newtons_update_rule.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/newtons_update_rule.png" title="Newtons rule update" alt="Newtons rule update" height="30"></a>
 
