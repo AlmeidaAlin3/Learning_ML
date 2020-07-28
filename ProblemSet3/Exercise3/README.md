@@ -69,6 +69,17 @@ Intuitively, the Fisher information represents the amount of information that a 
 Note that the Fisher Information is a function of the parameter. The parameter of the Fisher information is both **the parameter value at which the score function is evaluated**, and **the parameter of the distribution with respect to which the expectation and variance is calculated**.
 
 &nbsp;  
+&nbsp;  
+**3.c)**  
+It turns out that the **Fisher Information** can not only be defined as the covariance of the score function, but in most situations it can also be represented as the **expected negative Hessian of the log-likelihood**:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher_H.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher_H.png" title="Fisher information" alt="Fisher information" height="35"></a>
+
+
+
+
+
+&nbsp;  
 &nbsp; 
 Finally, we will see how this new natural gradient based optimization is actually equivalent to
 Newton’s method for Generalized Linear Models.
