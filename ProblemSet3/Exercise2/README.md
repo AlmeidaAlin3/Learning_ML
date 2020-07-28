@@ -73,11 +73,9 @@ We also see the values *f(a)*, *f(b)* and *f(E[X])* indicated on the y-axis. Mor
 
 &nbsp;  
 
-The [answer for the question 2.a]() uses the Jensen's Inequality theorem to prove the **nonnegativity property of KL divergence** which states that If the cross entropy between *P* and *Q* is zero (and hence DKL(P||Q) = 0) then it necessarily means *P = Q*.: 
+The [answer for the question 2.a]() uses the Jensen's Inequality theorem to prove the **nonnegativity property of KL divergence** which states that If the cross entropy between *P* and *Q* is zero (and hence DKL(P||Q) = 0) then it necessarily means *P = Q*, taht is: 
 
 ∀**P,Q &nbsp; DKL(P||Q) ≥ 0** &nbsp; where &nbsp;**DKL(P||Q) = 0** if and only if **P = Q**.  
-
-  
 
 &nbsp;  
 &nbsp;  
