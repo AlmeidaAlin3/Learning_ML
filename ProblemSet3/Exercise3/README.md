@@ -54,10 +54,19 @@ Using this fact, the [answer for the question 3.a]() shows that **the expected v
 &nbsp;  
 Note:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/score0.png.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/score0.png" title="Score Expected Value" alt="Score Expected Value" height="180"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/score0.png.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/score0.png" title="Score Expected Value" alt="Score Expected Value" height="170"></a>
 
 &nbsp;  
 &nbsp;  
+**3.b)**  
+Let us now introduce a quantity known as the **Fisher information**. It is defined as the covariance matrix of the score function,  
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher.png" title="Fisher information" alt="Fisher information" height="30"></a>
+
+
+
+&nbsp;  
+&nbsp; 
 Finally, we will see how this new natural gradient based optimization is actually equivalent to
 Newton’s method for Generalized Linear Models.
 
