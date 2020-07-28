@@ -82,9 +82,20 @@ and
 
 **DKL(P||Q) = 0** if and only if **P = Q**.  
 
+If the cross entropy between *P* and *Q* is zero (and hence DKL(P||Q) = 0) then it necessarily means *P = Q*.  
+
+&nbsp;  
 &nbsp;  
 **2.b)**  
+The KL divergence between two **conditional distributions** *P(X|Y)*, *Q(X|Y)* is defined as follows:  
 
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/DKL_conditional.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/DKL_conditional.png" title="DKL conditional" alt="DKL conditional" height="60"></a>
+
+This can be thought of as the expected KL divergence between the corresponding conditional distributions on **x**, that is, between *P(X|Y=y)* and *Q(X|Y=y)*, where the expectation is taken over the random **y**. 
+
+As proven  in the [answer for the question 2.b](), the **chain rule for KL divergence** is the following:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/DKL_chain.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/DKL_chain.png" title="DKL chain rule" alt="DKL chain rule" height="27"></a>
 
 
 
@@ -93,7 +104,7 @@ and
 &nbsp;  
 &nbsp;  
 
-If the cross entropy between *P* and *Q* is zero (and hence DKL(P||Q) = 0) then it necessarily means *P = Q*.  
+
 
 In Machine Learning, it is a common task to find a distribution *Q* that is “close” to another distribution *P*. To achieve this, we use DKL(Q||P) to be the loss function to be optimized. As we will see in the questions below, **Maximum Likelihood Estimation**, which is a commonly used optimization objective, turns out to be **equivalent minimizing KL divergence between the training data (i.e. the empirical distribution over the data) and the model.**
 
