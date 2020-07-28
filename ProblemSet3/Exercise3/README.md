@@ -47,9 +47,11 @@ Recall that:
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_g(y).png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_g(y).png" title="E_g(y)" alt="E_g(y)" height="32"></a>
 
 &nbsp;  
-Using this fact, the [answer for the question 3.a]() shows that **the expected value of the score is 0**, that is:
+Using this fact, the [answer to the question 3.a]() shows that **the expected value of the score is 0**, that is:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_score.png.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_score.png" title="Score Expected Value" alt="Score Expected Value" height="36"></a>
+
+Note that the Fisher Information is a function of the parameter. The parameter of the Fisher information is both **the parameter value at which the score function is evaluated**, and **the parameter of the distribution with respect to which the expectation and variance is calculated**.
 
 &nbsp;  
 Note:  
@@ -62,6 +64,9 @@ Let us now introduce a quantity known as the **Fisher information**. It is defin
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher.png" title="Fisher information" alt="Fisher information" height="30"></a>
 
+Intuitively, the Fisher information represents the amount of information that a random variable *Y* carries about a parameter *θ* of interest. When the parameter of interest is a vector (as in our case, since *θ* ∈ IRn ), this information becomes a matrix. The [answer to the question 3.b]() shows that Fisher information can equivalently be given by:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher_E.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher_E.png" title="Fisher information" alt="Fisher information" height="31"></a>
 
 
 &nbsp;  
