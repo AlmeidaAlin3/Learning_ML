@@ -105,24 +105,7 @@ Suppose we have some family of distributions *Pθ* parameterized by *θ*. (If yo
 
 The [answer for the question 2.c]() proved that finding the maximum likelihood estimate for the parameter *θ* is equivalent to finding *Pθ* with minimal KL divergence from *P̂*:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/MLE_KL.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/MLE_KL.png" title="MLE KL" alt="MLE KL" height="60"></a>
-
-&nbsp;  
-&nbsp;  
-&nbsp;  
-
-
-
-
-
-
-
-
-
-
-
-
-
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/MLE_KL.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/MLE_KL.png" title="MLE KL" alt="MLE KL" height="60"></a>  
 
 
 &nbsp;  
