@@ -81,7 +81,7 @@ if we make:
 **h3 = 1**, then **x1 + x2 ≤ 4**  
 **o = 1** &nbsp;, then **h1 + h2 + h3 ≥ 1**  
 
-Thus **o = 1** if and only if the points are not in the triangle region. The weights can then be determined using these equations as show in the [code for the question 1.b]().  
+Thus **o = 1** if and only if the points are not in the triangle region. The weights can then be determined using these equations.  
 
 &nbsp;  
 **1.c)**  
