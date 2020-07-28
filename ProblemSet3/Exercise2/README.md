@@ -56,7 +56,7 @@ To recap:
 
 Now, KL divergence is the **penalty** we pay, as measured in average number of bits, for using the optimal scheme for *Q(X)*, under the scenario where symbols are actually distributed as *P(X)*. It is straightforward to see this:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/KL_penalty.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/KL_penalty.png" title="KL as a penalty" alt="KL as a penalty" height="133"></a> 
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/KLpenalty.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/KLpenalty.png" title="KL as a penalty" alt="KL as a penalty" height="133"></a> 
 
 
 
