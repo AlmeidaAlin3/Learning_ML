@@ -73,7 +73,7 @@ We also see the values *f(a)*, *f(b)* and *f(E[X])* indicated on the y-axis. Mor
 
 &nbsp;  
 
-The [answer for the question 2.a]() uses the Jensen's Inequality theorem to prove the **nonnegativity property of KL divergence** which states that If the cross entropy between *P* and *Q* is zero (and hence DKL(P||Q) = 0) then it necessarily means *P = Q*, that is: 
+The [answer to the question 2.a]() uses the Jensen's Inequality theorem to prove the **nonnegativity property of KL divergence** which states that If the cross entropy between *P* and *Q* is zero (and hence DKL(P||Q) = 0) then it necessarily means *P = Q*, that is: 
 
 ∀**P,Q &nbsp; DKL(P||Q) ≥ 0** &nbsp; where &nbsp;**DKL(P||Q) = 0** if and only if **P = Q**.  
 
@@ -87,7 +87,7 @@ The KL divergence between two **conditional distributions** *P(X|Y)*, *Q(X|Y)* i
 This can be thought of as the expected KL divergence between the corresponding conditional distributions on **x**, that is, between *P(X|Y=y)* and *Q(X|Y=y)*, where the expectation is taken over the random **y**. 
 
 &nbsp;  
-As proven  in the [answer for the question 2.b](), the **chain rule for KL divergence** is the following:
+As proven  in the [answer to the question 2.b](), the **chain rule for KL divergence** is the following:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/DKL_chain.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/DKL_chain.png" title="DKL chain rule" alt="DKL chain rule" height="27"></a>
 
@@ -103,7 +103,7 @@ Consider a density estimation problem, and suppose we are given a training set *
 
 Suppose we have some family of distributions *Pθ* parameterized by *θ*. (If you like, think of *Pθ(x)* as an alternative notation for *P(x;θ)*.)
 
-The [answer for the question 2.c]() proved that finding the maximum likelihood estimate for the parameter *θ* is equivalent to finding *Pθ* with minimal KL divergence from *P̂*:
+The [answer to the question 2.c]() proved that finding the maximum likelihood estimate for the parameter *θ* is equivalent to finding *Pθ* with minimal KL divergence from *P̂*:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/MLE_KL.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/MLE_KL.png" title="MLE KL" alt="MLE KL" height="60"></a>  
 
