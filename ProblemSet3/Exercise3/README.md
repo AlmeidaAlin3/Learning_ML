@@ -135,9 +135,25 @@ So we have two equations with two unknowns **d** and **λ**, which can be someti
 &nbsp;  
 &nbsp;  
 **3.f)**   
-Finally, we will see how this new natural gradient based optimization is actually equivalent to Newton’s method for Generalized Linear Models. The direction of update of Newton’s method, and the direction of natural gradient, are exactly the same for Generalized Linear Models.  
+Finally, we will see how this new natural gradient based optimization is actually equivalent to Newton’s method for Generalized Linear Models. 
 
-While the two methods (**Netwon’s** and **natural gradient**) agree on GLMs, in general they need not be equivalent.
+The natural gradient update rule is given by:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/natural_gradient_update.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/natural_gradient_update.png" title="Natural gradient update rule" alt="Natural gradient update rule" height="28"></a>
+
+And Newton’s rule gives
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/newtons_update_rule.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/newtons_update_rule.png" title="Newtons rule update" alt="Newtons rule update" height="30"></a>
+
+Note that
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher-1.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher-1.png" title="fisher^-1" alt="Fisher^-1" height="30"></a>
+
+As we know, in generalized linear model, *H* is only dependent on *x* but not *y*. So:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/same_direction.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/same_direction.png" title="Same direction" alt="Same direction" height="27"></a>
+
+That is, the **direction of update** of Newton’s method, and the direction of natural gradient, **are exactly the same** for Generalized Linear Models. While the two methods agree on GLMs, in general they need not be equivalent.
 
 
 &nbsp;  
