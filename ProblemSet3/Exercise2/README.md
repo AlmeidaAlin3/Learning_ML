@@ -75,9 +75,7 @@ We also see the values *f(a)*, *f(b)* and *f(E[X])* indicated on the y-axis. Mor
 
 The [answer for the question 2.a]() uses this theorem to prove the **nonnegativity property of KL divergence**: 
 
-∀**P,Q &nbsp; &nbsp; DKL(P||Q) ≥ 0**  
-and  
-**DKL(P||Q) = 0** &nbsp; if and only if &nbsp; **P = Q**.  
+∀**P,Q &nbsp; DKL(P||Q) ≥ 0** &nbsp; where &nbsp;**DKL(P||Q) = 0** if and only if **P = Q**.  
 
 If the cross entropy between *P* and *Q* is zero (and hence DKL(P||Q) = 0) then it necessarily means *P = Q*.  
 
