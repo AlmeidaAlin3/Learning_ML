@@ -57,16 +57,54 @@ To recap:
 Now, KL divergence is the **penalty** we pay, as measured in average number of bits, for using the optimal scheme for *Q(X)*, under the scenario where symbols are actually distributed as *P(X)*. It is straightforward to see this:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/KLpenalty.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/KLpenalty.png" title="KL as a penalty" alt="KL as a penalty" height="133"></a>  
-&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;   (difference in average number of bits)
+&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;   (difference in average number of bits)  
 
+&nbsp;  
+
+&nbsp;  
+**2.a)**  
+The called *Jensen’s inequality* says that If f is a **convex** function, and X is a random variable, then **E[f(X)] ≥ f (E[X])**. For an interpretation of the theorem, consider the figure below:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/JensenInequality.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/JensenInequality.png" title="Jensen’s inequality" alt="Jensen’s inequality" height="150"></a>
+
+Here, *f* is a convex function shown by the solid line. Also, *X* is a random variable that has a 0.5 chance of taking the value *a*, and a 0.5 chance of taking the value *b* (indicated on the x-axis). Thus, the expected value of *X* is given by the midpoint between *a* and *b*.  
+
+We also see the values *f(a)*, *f(b)* and *f(E[X])* indicated on the y-axis. Moreover, the value *E[f(X)]* is now the midpoint on the y-axis between *f(a)* and *f(b)*. From our example, we see that because *f* is convex, it must be the case that *E[f(X)] ≥ f (EX)*.
+
+&nbsp;  
+
+The [answer for the question 2.a]() uses this theorem to prove the **nonnegativity property of KL divergence**: 
+
+∀**P,Q  
+DKL(P||Q) ≥ 0**
+
+and
+
+**DKL(P||Q) = 0** if and only if **P = Q**.  
+
+&nbsp;  
+**2.b)**  
 
 
 
 
 
 &nbsp;  
-**2.a)**  
-...
+&nbsp;  
+&nbsp;  
+
+If the cross entropy between *P* and *Q* is zero (and hence DKL(P||Q) = 0) then it necessarily means *P = Q*.  
+
+In Machine Learning, it is a common task to find a distribution *Q* that is “close” to another distribution *P*. To achieve this, we use DKL(Q||P) to be the loss function to be optimized. As we will see in the questions below, **Maximum Likelihood Estimation**, which is a commonly used optimization objective, turns out to be **equivalent minimizing KL divergence between the training data (i.e. the empirical distribution over the data) and the model.**
+
+Now, we get back to showing some simple properties of KL divergence.
+
+
+
+
+
+
+
 
 
 &nbsp;  
