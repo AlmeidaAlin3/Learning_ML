@@ -26,7 +26,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 1:** A Simple Neural Network](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/README.md)       
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 2:** KL divergence and Maximum Likelihood](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/README.md)      
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 3:** KL Divergence, Fisher Information, and the Natural Gradient](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/README.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 4:** Semi-supervised EM    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 4:** Semi-supervised EM](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/README.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 5:** K-means for compression    
 
 ### **Problem Set #4: EM, DL, & RL**   
