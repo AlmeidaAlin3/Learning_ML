@@ -73,9 +73,11 @@ Note that the Fisher Information is a function of the parameter. The parameter o
 **3.c)**  
 It turns out that the **Fisher Information** can not only be defined as the covariance of the score function, but in most situations it can also be represented as the **expected negative Hessian of the log-likelihood**:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher_H.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher_H.png" title="Fisher information" alt="Fisher information" height="35"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher_H.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher_H.png" title="Fisher information" alt="Fisher information" height="35"></a>  
 
-
+&nbsp;  
+**Remark:** *The Hessian represents the curvature of a function at a point. This shows that the expected curvature of the log-likelihood function is also equal to the Fisher information matrix. If the curvature of the log-likelihood at a parameter is very steep (i.e, Fisher Information is very high), this generally means you need fewer number of data samples to a estimate that parameter well (assuming data was generated from the distribution with those
+parameters), and vice versa. The Fisher information matrix associated with a statistical model parameterized by θ is extremely important in determining how a model behaves as a function of the number of training set examples.*
 
 
 
