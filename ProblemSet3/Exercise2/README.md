@@ -22,6 +22,7 @@ Intuitively, entropy measures how dispersed a probability distribution is. For e
 Notably, it can be shown that among continuous distributions over IR, the **Gaussian distribution** *N(μ, σ²)* has the **highest entropy** (highest uncertainty) among all possible distributions that have the given mean μ and variance σ².  
 
 &nbsp;  
+
 *Motivation from coomunication theory:*  
 
 *Suppose we want to communicate from a source to a destination, and our messages are always a sequence of discrete symbols over space X (for example, X could be letters {a, b, . . . , z}). We want to construct an encoding scheme for our symbols in the form of sequences of binary bits that are
@@ -52,6 +53,7 @@ To recap:
 **ii)** The **cross entropy** *H(P,Q)* is the long term average bits per message (suboptimal) that results under a symbol distribution *P(X)*, by reusing an encoding scheme (possibly unknown) designed to be optimal for a scenario with symbol distribution *Q(X)*.  
 
 &nbsp;  
+
 Now, KL divergence is the **penalty** we pay, as measured in average number of bits, for using the optimal scheme for *Q(X)*, under the scenario where symbols are actually distributed as *P(X)*. It is straightforward to see this:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/penalty.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/penalty.png" title="KL as a penalty" alt="KL as a penalty" height="130"></a> 
