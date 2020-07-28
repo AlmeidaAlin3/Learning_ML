@@ -23,7 +23,7 @@ Notably, it can be shown that among continuous distributions over IR, the **Gaus
 
 &nbsp;  
 
-*Motivation from coomunication theory:*  
+*Motivation from comunication theory:*  
 
 *Suppose we want to communicate from a source to a destination, and our messages are always a sequence of discrete symbols over space X (for example, X could be letters {a, b, . . . , z}). We want to construct an encoding scheme for our symbols in the form of sequences of binary bits that are
 transmitted over the channel. Further, suppose that in the long run the frequency of occurrence of symbols follow a probability distribution P(X). This means, in the long run, the fraction of times the symbol x gets transmitted is P(x).*  
