@@ -104,11 +104,28 @@ In the previous sub-question we came up with a way to approximate *DKL* distance
 
 Let the log-likelihood objective be **(θ) = log p(y; θ)**. Let the *DKL* distance we want to move by, be some small positive constant **c**. The **natural gradient update** *d∗* is:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star.png" title="natural gradient update d∗" alt="natural gradient update d∗" height="37"></a>  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star.png" title="natural gradient update d∗" alt="natural gradient update d∗" height="40"></a>  
 
 subject to:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/DKL_c.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/DKL_c.png" title="DKL distance" alt="DKL distance" height="28"></a>  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/DKL_c.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/DKL_c.png" title="DKL distance" alt="DKL distance" height="31"></a>
+
+&nbsp;  
+In order to solve this constrained optimization problem, we employ the method of **Lagrange multipliers**. Consider the following constrained optimization problem:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star_lagr.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star_lagr.png" title="natural gradient update d∗" alt="natural gradient update d∗" height="39"></a>  
+
+subject to:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/cont_lagr.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/cont_lagr.png" title="constraint g" alt="constraint g" height="27"></a>
+
+The function *f* is the **objective function** and *g* is the **constraint**. We instead optimize the **Lagrangian L(d, λ)**, which is defined as:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/lagrange.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/lagrange.png" title="Lagrange" alt="Lagrange" height="30"></a>
+
+
+
+
 
 &nbsp;  
 &nbsp;  
