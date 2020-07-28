@@ -101,7 +101,7 @@ Now we move on to calculating the **natural gradient**. Recall that we want to m
 
 In the previous sub-question we came up with a way to approximate *DKL* distance with Fisher Information. Now we will set up the constrained optimization problem that will yield the natural gradient update **d**.  
 
-Let the log-likelihood objective be **(θ) = log p(y; θ)**. Let the *DKL* distance we want to move by, be some small positive constant **c**. The **natural gradient update** *d∗* is:
+Let the log-likelihood objective be **ℓ(θ) = log p(y; θ)**. Let the *DKL* distance we want to move by, be some small positive constant **c**. The **natural gradient update** *d∗* is:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star.png" title="natural gradient update d∗" alt="natural gradient update d∗" height="40"></a>  
 
@@ -128,17 +128,19 @@ In order to optimize the above, we construct the following system of equations:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/lagr_eqs.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/lagr_eqs.png" title="Lagrangian system of equations" alt="Lagrangian system of equations" height="55"></a>
 
+So we have two equations with two unknowns **d** and **λ**, which can be sometimes be solved analytically (in our case, we can). The final final expression for **d∗** is given by:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star_final.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star_final.png" title="Final expression for d ∗" alt="Final expression for d ∗" height="75"></a>
+
+&nbsp;  
+&nbsp;  
+**3.f)**   
+Finally, we will see how this new natural gradient based optimization is actually equivalent to Newton’s method for Generalized Linear Models. The direction of update of Newton’s method, and the direction of natural gradient, are exactly the same for Generalized Linear Models.  
+
+While the two methods (**Netwon’s** and **natural gradient**) agree on GLMs, in general they need not be equivalent.
 
 
 &nbsp;  
-&nbsp;  
-**3.f)**  
-
-
-&nbsp;  
-&nbsp; 
-Finally, we will see how this new natural gradient based optimization is actually equivalent to
-Newton’s method for Generalized Linear Models.
 
 &nbsp;  
 ---
