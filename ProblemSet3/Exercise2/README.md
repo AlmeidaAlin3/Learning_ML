@@ -9,7 +9,6 @@
 The **Kullback-Leibler divergence** is a measure of how much one probability distribution is different from a second one. In this problem, we will introduce KL divergence over discrete distributions, practice some simple manipulations, and see its connection to **Maximum Likelihood Estimation**.  
 
 The **KL divergence** between two discrete-valued distributions *P(X)*, *Q(X)* over the outcome space *X* is defined as follows:
-
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/DKL.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/DKL.png" title="Kullback-Leibler divergence" alt="Kullback-Leibler divergence" height="50"></a>
 
 &nbsp;  
