@@ -102,7 +102,8 @@ Now we move on to calculating the **natural gradient**. Recall that we want to m
 
 In the previous sub-question we came up with a way to approximate *DKL* distance with Fisher Information. Now we will set up the constrained optimization problem that will yield the natural gradient update **d**.  
 
-Let the log-likelihood objective be **(θ) = log p(y; θ)**. Let the *DKL* distance we want to move by, be some small positive constant **c**. The **natural gradient update** *d∗* is:  
+Let the log-likelihood objective be **(θ) = log p(y; θ)**. Let the *DKL* distance we want to move by, be some small positive constant **c**. The **natural gradient update** *d∗* is:
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star.png" title="natural gradient update d∗" alt="natural gradient update d∗" height="40"></a>  
 
 subject to:  
