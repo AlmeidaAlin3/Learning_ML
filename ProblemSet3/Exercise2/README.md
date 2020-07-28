@@ -13,6 +13,15 @@ The **KL divergence** between two discrete-valued distributions *P(X)*, *Q(X)* o
 
 &nbsp;  
 
+Before we dive deeper, we give a brief **Information Theoretic background** on KL divergence. We start with the **entropy** *H(P)* of a probability distribution *P(X)*, which is defined as:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/Entropy.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/Entropy.png" title="Entropy" alt="Entropy" height="50"></a>
+
+Intuitively, entropy measures how dispersed a probability distribution is. For example, a **uniform distribution** is considered to have **very high entropy** (i.e. a lot of uncertainty), whereas a distribution that assigns all its mass on a **single point** is considered to have **zero entropy** (i.e. no uncertainty).  
+
+Notably, it can be shown that among continuous distributions over IR, the **Gaussian distribution** *N(μ, σ²)* has the **highest entropy** (highest uncertainty) among all possible distributions that have the given mean μ and variance σ².
+
+
 
 
 &nbsp;  
