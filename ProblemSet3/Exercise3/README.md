@@ -89,9 +89,8 @@ calculate *DKL* between **p(y; θ)** and **p(y; θ+d)**, where **d** *∈ IRn* i
 Eventually **d** will be the **natural gradient** update we will add to **θ**. 
 
 To approximate the KL-divergence with Fisher Information, we will start with the Taylor Series expansion of *DKL* and see that the Fisher
-Information pops up in the expansion.
+Information pops up in the expansion. The [answer to the question 3.d]() shows that:
 
-The [answer to the question 3.d]() shows that:    
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/DKL_fisher.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/DKL_fisher.png" title="approximate the KL-divergence with Fisher Information" alt="Approximate the KL-divergence with Fisher Information" height="45"></a>  
 
 
@@ -106,7 +105,8 @@ Let the log-likelihood objective be **(θ) = log p(y; θ)**. Let the *DKL* dista
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star.png" title="natural gradient update d∗" alt="natural gradient update d∗" height="40"></a>  
 
-subject to:  
+subject to:
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/DKL_c.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/DKL_c.png" title="DKL distance" alt="DKL distance" height="31"></a>
 
 &nbsp;  
@@ -118,12 +118,17 @@ subject to:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/cont_lagr.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/cont_lagr.png" title="constraint g" alt="constraint g" height="27"></a>
 
+The function *f* is the **objective function** and *g* is the **constraint**. 
+
+
 &nbsp;  
-The function *f* is the **objective function** and *g* is the **constraint**. We instead optimize the **Lagrangian L(d, λ)**, which is defined as:
+We instead optimize the **Lagrangian L(d, λ)** with respect to both **d** and **λ**, where **λ** *∈ IR+* is called the Lagrange multiplier.  
+The Lagrangian is defined as:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/lagrange.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/lagrange.png" title="Lagrange" alt="Lagrange" height="30"></a>
 
-with respect to both **d** and **λ**. Here **λ** *∈ IR+* is called the Lagrange multiplier. In order to optimize the above, we construct the following system of equations:
+&nbsp;  
+In order to optimize the above, we construct the following system of equations:
 
 
 
