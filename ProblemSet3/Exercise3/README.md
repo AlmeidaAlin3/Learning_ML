@@ -51,8 +51,6 @@ Using this fact, the [answer to the question 3.a]() shows that **the expected va
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_score.png.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_score.png" title="Score Expected Value" alt="Score Expected Value" height="36"></a>
 
-Note that the Fisher Information is a function of the parameter. The parameter of the Fisher information is both **the parameter value at which the score function is evaluated**, and **the parameter of the distribution with respect to which the expectation and variance is calculated**.
-
 &nbsp;  
 Note:  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/score0.png.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/score0.png" title="Score Expected Value" alt="Score Expected Value" height="170"></a>
@@ -68,6 +66,7 @@ Intuitively, the Fisher information represents the amount of information that a 
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher_E.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher_E.png" title="Fisher information" alt="Fisher information" height="31"></a>
 
+Note that the Fisher Information is a function of the parameter. The parameter of the Fisher information is both **the parameter value at which the score function is evaluated**, and **the parameter of the distribution with respect to which the expectation and variance is calculated**.
 
 &nbsp;  
 &nbsp; 
