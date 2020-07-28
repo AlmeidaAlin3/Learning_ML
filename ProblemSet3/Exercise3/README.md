@@ -110,7 +110,7 @@ subject to:
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/DKL_c.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/DKL_c.png" title="DKL distance" alt="DKL distance" height="31"></a>
 
 &nbsp;  
-In order to solve this constrained optimization problem, we employ the method of **Lagrange multipliers**. Consider the following constrained optimization problem:
+In order to solve this constrained optimization problem, we employ the method of **Lagrange multipliers**. Consider the following constrained optimization problem, where function **f** is the **objective function** and **g** is the **constraint**:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star_lagr.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/d_star_lagr.png" title="natural gradient update d∗" alt="natural gradient update d∗" height="39"></a>  
 
@@ -118,19 +118,15 @@ subject to:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/cont_lagr.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/cont_lagr.png" title="constraint g" alt="constraint g" height="27"></a>
 
-The function *f* is the **objective function** and *g* is the **constraint**. 
-
-
 &nbsp;  
-We instead optimize the **Lagrangian L(d, λ)** with respect to both **d** and **λ**, where **λ** *∈ IR+* is called the Lagrange multiplier.  
-The Lagrangian is defined as:
+We instead optimize the **Lagrangian L(d, λ)** with respect to both **d** and **λ**, where **λ** *∈ IR+* is called the Lagrange multiplier. The Lagrangian is defined as:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/lagrange.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/lagrange.png" title="Lagrange" alt="Lagrange" height="30"></a>
 
 &nbsp;  
 In order to optimize the above, we construct the following system of equations:
 
-
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/lagr_eqs.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/lagr_eqs.png" title="Lagrangian system of equations" alt="Lagrangian system of equations" height="55"></a>
 
 
 
