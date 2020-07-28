@@ -43,20 +43,20 @@ achieved if the symbols x ∈ X occur according to P(X). It does not specificall
 
 Concretely, if we reuse the optimal scheme designed for a scenario having symbol distribution *Q(X)*, into a scenario that has symbol distribution *P(X)*, the long term average number of bits per symbol achieved is called the **cross entropy**, denoted by *H(P,Q)*:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/cross_entropy.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/cross_entropy.png" title="Cross entropy" alt="Cross entropy" height="45"></a>  
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/cross_entropy.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/cross_entropy.png" title="Cross entropy" alt="Cross entropy" height="48"></a>  
 
 &nbsp;  
 To recap:
 
-**i)** The **entropy** *H(P)* is the best possible long term average bits per message (optimal) that can be achived under a symbol distribution *P(X)* by using an encoding scheme (possibly unknown) specifically designed for *P(X)*.  
+**i)** The **entropy** *H(P)* is the best possible long term average bits per message (**optimal**) that can be achived under a symbol distribution **P(X)** by using an encoding scheme (possibly unknown) **specifically designed for P(X)**.  
 
-**ii)** The **cross entropy** *H(P,Q)* is the long term average bits per message (suboptimal) that results under a symbol distribution *P(X)*, by reusing an encoding scheme (possibly unknown) designed to be optimal for a scenario with symbol distribution *Q(X)*.  
+**ii)** The **cross entropy** *H(P,Q)* is the long term average bits per message (**suboptimal**) that results under a symbol distribution **P(X)**, by reusing an encoding scheme (possibly unknown) designed to be **optimal for a scenario with symbol distribution Q(X)**.  
 
 &nbsp;  
 
 Now, KL divergence is the **penalty** we pay, as measured in average number of bits, for using the optimal scheme for *Q(X)*, under the scenario where symbols are actually distributed as *P(X)*. It is straightforward to see this:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/penalty.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/penalty.png" title="KL as a penalty" alt="KL as a penalty" height="130"></a> 
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/KL_penalty.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise2/img/KL_penalty.png" title="KL as a penalty" alt="KL as a penalty" height="133"></a> 
 
 
 
