@@ -42,12 +42,10 @@ The **score function** associated with **p(y;θ)** is defined as:
 
 which signifies the sensitivity of the likelihood function with respect to the parameters. Note that the score function is actually a vector since it’s the gradient of a scalar quantity with respect to the vector *θ*.
 
-Recall that:
-
+Recall that:  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_g(y).png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_g(y).png" title="E_g(y)" alt="E_g(y)" height="32"></a>
 
-Using this fact, the [answer for the question 3.a]() shows that the expected value of the score is 0, that is:
-
+Using this fact, the [answer for the question 3.a]() shows that the expected value of the score is 0, that is:  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_score.png.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_score.png" title="Score Expected Value" alt="Score Expected Value" height="36"></a>
 
 
