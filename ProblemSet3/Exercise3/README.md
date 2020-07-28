@@ -83,11 +83,26 @@ parameters), and vice versa. The Fisher information matrix associated with a sta
 &nbsp;  
 &nbsp;  
 **3.d)**  
+We are interested in the set of all distributions that are at a small fixed *DKL* distance away from the current distribution. In order to
+calculate *DKL* between **p(y; θ)** and **p(y; θ+d)**, where **d** *∈ IRn* is a small magnitude “delta” vector, we approximate it using the Fisher Information at **θ**.  
+
+Eventually **d** will be the **natural gradient** update we will add to **θ**. 
+
+To approximate the KL-divergence with Fisher Information, we will start with the Taylor Series expansion of *DKL* and see that the Fisher
+Information pops up in the expansion.
+
+The [answer to the question 3.d]() shows that:    
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/DKL_fisher.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/DKL_fisher.png" title="approximate the KL-divergence with Fisher Information" alt="Approximate the KL-divergence with Fisher Information" height="45"></a>  
 
 
 &nbsp;  
 &nbsp;  
 **3.e)**  
+Now we move on to calculating the **natural gradient**. Recall that we want to maximize the log-likelihood by moving only by a fixed *DKL* distance from the current position.  
+
+In the previous sub-question we came up with a way to approximate *DKL* distance with Fisher Information. Now we will set up the constrained optimization problem that will yield the natural gradient update **d**.  
+
+Let the log-likelihood objective be **(θ) = log p(y; θ)**. Let the *DKL* distance we want to move by, be some small positive constant **c**. The natural gradient update **d∗**  is
 
 
 &nbsp;  
