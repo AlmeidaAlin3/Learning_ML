@@ -80,6 +80,20 @@ It turns out that the **Fisher Information** can not only be defined as the cova
 parameters), and vice versa. The Fisher information matrix associated with a statistical model parameterized by θ is extremely important in determining how a model behaves as a function of the number of training set examples.*
 
 
+&nbsp;  
+&nbsp;  
+**3.d)**  
+
+
+&nbsp;  
+&nbsp;  
+**3.e)**  
+
+
+&nbsp;  
+&nbsp;  
+**3.f)**  
+
 
 &nbsp;  
 &nbsp; 
