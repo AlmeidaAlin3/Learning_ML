@@ -52,7 +52,7 @@ Using this fact, the [answer for the question 3.a]() shows that **the expected v
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_score.png.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_score.png" title="Score Expected Value" alt="Score Expected Value" height="36"></a>
 
 &nbsp;  
-Note:
+Note:  
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/score0.png.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/score0.png" title="Score Expected Value" alt="Score Expected Value" height="170"></a>
 
 &nbsp;  
