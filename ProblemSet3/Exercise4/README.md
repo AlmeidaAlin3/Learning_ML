@@ -5,10 +5,28 @@
 **Exercise 4**  
 Expectation Maximization (EM) is a classical algorithm for unsupervised learning (i.e., learning with hidden or latent variables). In this problem we will explore one of the ways in which EM algorithm can be adapted to the **semi-supervised** setting, where we have some labelled examples along with unlabelled examples.  
 
-In the standard unsupervised setting, we have *m ∈ N* unlabelled examples *{x^(1), ..., x^(m)}*. We wish to learn the parameters of *p(x,z;θ)* from the data, but *z^(i)*’s are not observed. The classical EM algorithm is designed for this very purpose, where we maximize the intractable
+In the standard unsupervised setting, we have *m ∈ IN* unlabelled examples *{x^(1), ..., x^(m)}*. We wish to learn the parameters of *p(x,z;θ)* from the data, but *z^(i)*’s are not observed. The classical EM algorithm is designed for this very purpose, where we maximize the intractable
 *p(x;θ)* indirectly by iteratively performing the E-step and M-step, each time maximizing a tractable lower bound of *p(x;θ)*. In the **standard unsupervised setting**, our objective can be concretely written as:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/EM.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/EM.png" title="EM" alt="EM" height="120"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/EM.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/EM.png" title="EM" alt="EM" height="125"></a>
+
+Now, we will attempt to construct an extension of EM to the **semi-supervised** setting. Let us suppose we have an additional *m̃ ∈ IN* labelled examples *{(x^(1), z^(1)), ..., (x^(~m̃), z^(~m̃))}* where both *x* and *z* are observed. We want to simultaneously maximize the marginal likelihood of the parameters using the unlabelled examples, and full likelihood of the parameters using the labelled examples, by optimizing their weighted sum (with some hyperparameter *α*). More concretely, our semi-supervised objective *ℓsemi-sup(θ)* can be written as:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/semi_sup.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/semi_sup.png" title="semi-supervised" alt="semi-supervised" height="100"></a>  
+
+&nbsp;  
+We can derive the EM steps for the semi-supervised setting using the same approach and steps as before and we end up with:  
+
+**E-step (semi-supervised)**  
+*For each **i** ∈ {1, ..., m}, set*
+
+<>
+
+**M-step (semi-supervised)**
+
+<>
+
+&nbsp;  
 
 
 &nbsp;  
