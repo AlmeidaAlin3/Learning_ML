@@ -24,6 +24,7 @@ We can derive the EM steps for the semi-supervised setting using the same approa
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/E_step.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/E_step.png" title="E-step semi-supervised" alt="E-step semi-supervised" height="35"></a> 
 
+&nbsp;  
 **M-step (semi-supervised)**
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/M_step.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/M_step.png" title="M-step semi-supervised" alt="M-step semi-supervised" height="70"></a> 
