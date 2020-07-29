@@ -81,7 +81,7 @@ The [code for the question 4.e](https://github.com/AlmeidaAlin3/MachineLearning/
 The dataset used above was sampled from a mixture of three low-variance Gaussian distributions, and a fourth, high-variance Gaussian distribution. Knowing that, lets describe the differences saw in unsupervised vs. semi-supervised EM for each of the following:  
 
 **i. Number of iterations taken to converge**  
-Unsupervised EM takes over 150 iterations to converge, while semi-supervised EM takes over 20 iterations to converge.  
+Unsupervised EM takes over 100 iterations to converge, while semi-supervised EM takes over 20 iterations to converge.  
 
 **ii. Stability**    
 For unsupervised EM, the clusters change for every random initialization. While for semi-supervised EM, the results are the same.  
