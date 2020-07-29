@@ -29,11 +29,9 @@ We can derive the EM steps for the semi-supervised setting using the same approa
 &nbsp;  
 &nbsp;  
 **4.a)**  
-in this question we will show that the algorithm above eventually **converges**. The [answer to the question 4.a]() shows that our semi-supervised objective *ℓsemi-sup(θ)* monotonically increases with each iteration of *E* and *M* step and therefore eventually converges:  
+The [answer to the question 4.a]() shows that the algorithm above eventually **converges** given that our semi-supervised objective *ℓsemi-sup(θ)* monotonically increases with each iteration of *E* and *M* step, that is:  
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/convergence.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/convergence.png" title="convergence" alt="convergence" height="28"></a>
-
-that means 
 
 
 
