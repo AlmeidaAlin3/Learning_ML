@@ -26,7 +26,6 @@ We can derive the EM steps for the semi-supervised setting using the same approa
 **M-step (semi-supervised)**  
 &nbsp; &nbsp; &nbsp; <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/M_step.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/M_step.png" title="M-step semi-supervised" alt="M-step semi-supervised" height="70"></a>
 
-&nbsp;  
 **4.a)**  
 The [answer to the question 4.a]() shows that the algorithm eventually converges. In order to prove that, it is sufficient to show that our semi-supervised objective *ℓsemi-sup(θ)* monotonically increases with each iteration of E and M step, that is: 
 
