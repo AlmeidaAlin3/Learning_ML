@@ -9,21 +9,39 @@ The *peppers-large.tiff* file contains a 512x512 image of peppers represented in
 
 To compress the image, we will use K-means to reduce the image to k=16 colors. More specifically, each pixel in the image is considered a point in the three-dimensional (r, g, b)-space. We will cluster these points in color-space into 16 clusters, and replace each pixel with the closest cluster centroid.
 
-
-
-
-
-
-
-
-
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/xx/.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/img/xx.png" title="xx" alt="xx" height="125"></a>
-
 &nbsp; 
 &nbsp;  
 **5.a)**  
 ...
+(a) [15 points] [Coding Problem] K-Means Compression Implementation. From the
+data directory, open an interactive Python prompt, and type
+from matplotlib.image import imread; import matplotlib.pyplot as plt;
+and run A = imread(’peppers-large.tiff’). Now, A is a “three dimensional matrix,”
+and A[:,:,0], A[:,:,1] and A[:,:,2] are 512x512 arrays that respectively contain the
+red, green, and blue values for each pixel. Enter plt.imshow(A); plt.show() to display
+the image.
+Since the large image has 262144 pixels and would take a while to cluster, we will instead run
+vector quantization on a smaller image. Repeat (a) with peppers-small.tiff. Treating
+each pixel’s (r, g, b) values as an element of R 3 , run K-means 2 with 16 clusters on the pixel
+data from this smaller image, iterating (preferably) to convergence, but in no case for less
+than 30 iterations. For initialization, set each cluster centroid to the (r, g, b)-values of a
+randomly chosen pixel in the image.
+Take the matrix A from peppers-large.tiff, and replace each pixel’s (r, g, b) values with
+the value of the closest cluster centroid. Display the new image, and compare it visually
+to the original image. Include in your write-up all your code and a copy of your
+compressed image.
 
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/xx/.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/img/xx.png" title="xx" alt="xx" height="125"></a>
+
+
+&nbsp; 
+&nbsp;  
+**5.b)**  
+
+(b) [5 points] Compression Factor. If we represent the image with these reduced (16) colors,
+by (approximately) what factor have we compressed the image?
+Answer: Each pixel can now be represented as a 4-bit color versus 24-bit. So compression
+rate is approximately 1/6.
 
 
 
