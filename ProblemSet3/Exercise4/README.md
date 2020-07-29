@@ -33,9 +33,43 @@ The [answer to the question 4.a]() shows that the algorithm eventually converges
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/convergence.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/convergence.png" title="convergence" alt="convergence" height="28"></a>
 
+&nbsp;
+&nbsp;  
+## Semi-supervised GMM
 
+Now we will revisit the **Gaussian Mixture Model** (GMM), to apply our semi-supervised EM algorithm. Let us consider a scenario where data is generated from **k ∈ IN Gaussian distributions**, with **unknown means μj ∈ IRd** and **covariances Σj ∈ Sd+** where **j ∈ {1, ..., k}**.  
 
+In summary we have **m + m̃** examples, of which **m are unlabelled** data points x’s with **unobserved z**’s, and **m̃ are labelled** data points **x̃**'s with corresponding **observed labels z̃^(i)**.  
 
+The traditional EM algorithm is designed to take only the **m** unlabelled examples as input, and learn the model parameters **μ**, **Σ**, and **φ**. Our task now will be to apply the semi-supervised EM algorithm to GMMs in order to leverage the additional **m̃ labelled examples**, and come up with **semi-supervised E-step and M-step** update rules specific to GMMs.  
+
+&nbsp;  
+&nbsp;  
+**4.b)**  
+In the E-step, we need to re-estimate *z^(i)* for *i = 1, ..., m*. The [answer to the question 4.b]() shows the **semi-supervised E-Step** expression to re-estimate all the stated latent variables.
+
+&nbsp;  
+&nbsp;  
+**4.c)**  
+The [answer to the question 4.c]() derives closed form expressions for the parameter update rules for *μ^(t+1)*, *Σ^(t+1)* and *φ^(t+1)* based on the semi-supervised objective for the **semi-supervised M-Step**.
+
+&nbsp;  
+&nbsp;  
+**4.d)**  
+The [code for the question 4.d]() implements the **traditional EM algorithm** considering the **m** unlabelled examples, and run it on the unlabelled data-set until convergence. The scatter plot of three trials are shown below:
+
+<>
+<>
+<>
+
+&nbsp;  
+&nbsp;  
+**4.e)**  
+The [code for the question 4.e]() implements the **EM semi-supervised algorithm** considering both the labelled and unlabelled examples (a total of m+m̃), with 5 labelled examples per cluster, and run it until convergence. The scatter plot of three trials are shown below:
+
+<>
+<>
+<>
 
 &nbsp;  
 
