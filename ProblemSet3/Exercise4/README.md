@@ -33,7 +33,7 @@ in this question we will show that the algorithm above eventually **converges**.
 
 **ℓsemi-sup(θ^(t+1)) ≥ ℓsemi-sup(θ^(t))**,  
 
-that means our semi-supervised objective *ℓsemi-sup(θ)* monotonically increases with each iteration of *E* and *M* step therefore it eventually converges.
+that means our semi-supervised objective *ℓsemi-sup(θ)* monotonically increases with each iteration of *E* and *M* step, therefore it eventually converges.
 
 
 
