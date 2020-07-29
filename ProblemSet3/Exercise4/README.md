@@ -18,7 +18,8 @@ Now, we will attempt to construct an extension of EM to the **semi-supervised** 
 We can derive the EM steps for the semi-supervised setting using the same approach and steps as before and we end up with:  
 &nbsp;  
 **E-step (semi-supervised)**  
-*For each **i** ∈ {1, ..., m}, set*  
+*For each **i** ∈ {1, ..., m}, set*
+
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/E_step.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/E_step.png" title="E-step semi-supervised" alt="E-step semi-supervised" height="35"></a> 
 
 
