@@ -15,8 +15,7 @@ Now, we will attempt to construct an extension of EM to the **semi-supervised** 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/semi_sup.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/semi_sup.png" title="semi-supervised" alt="semi-supervised" height="100"></a>  
 
 &nbsp;  
-We can derive the EM steps for the semi-supervised setting using the same approach and steps as before and we end up with:  
-
+We can derive the EM steps for the semi-supervised setting using the same approach and steps as before and we end up with:
 &nbsp;  
 **E-step (semi-supervised)**  
 
