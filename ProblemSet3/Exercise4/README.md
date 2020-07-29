@@ -55,20 +55,25 @@ The [answer to the question 4.c]() derives closed form expressions for the param
 &nbsp;  
 &nbsp;  
 **4.d)**  
-The [code for the question 4.d]() implements the **traditional EM algorithm** considering the **m** unlabelled examples, and run it on the unlabelled data-set until convergence. The scatter plot of three trials are shown below:
+The [code for the question 4.d](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/ex4_d.ipynb) implements the **traditional EM algorithm** considering the **m** unlabelled examples, and run it on the unlabelled data-set until convergence. The scatter plot of three trials are shown below:
 
-<>
-<>
-<>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/4d_plot1.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/4d_plot1.png" title="4d_plot1" alt="4d_plot1" height="200"></a>
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/4d_plot2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/4d_plot2.png" title="4d_plot2" alt="4d_plot2" height="200"></a>
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/4d_plot3.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/4d_plot3.png" title="4d_plot3" alt="4d_plot3" height="200"></a>
 
 &nbsp;  
 &nbsp;  
 **4.e)**  
-The [code for the question 4.e]() implements the **EM semi-supervised algorithm** considering both the labelled and unlabelled examples (a total of m+m̃), with 5 labelled examples per cluster, and run it until convergence. The scatter plot of three trials are shown below:
+The [code for the question 4.e](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/ex4_e.ipynb) implements the **EM semi-supervised algorithm** considering both the labelled and unlabelled examples (a total of m+m̃), with 5 labelled examples per cluster, and run it until convergence. The scatter plot of three trials are shown below:
 
-<>
-<>
-<>
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/4e_plot1.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/4e_plot1.png" title="4e_plot1" alt="4e_plot1" height="200"></a>
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/4e_plot2.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/4e_plot2.png" title="4e_plot2" alt="4e_plot2" height="200"></a>
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/4e_plot3.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/4e_plot3.png" title="4e_plot3" alt="4e_plot3" height="200"></a>
 
 &nbsp;  
 
