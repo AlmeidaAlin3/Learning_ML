@@ -21,7 +21,7 @@ Then it takes the image matrix from *peppers-large.tiff*, and replace each pixel
 &nbsp;  
 The original and compressed images are shown below:
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/5a_output.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/img/5a_output.png" title="original and compressed images" alt="original and compressed images" height="200"></a>
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/5a_output.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/img/5a_output.png" title="original and compressed images" alt="original and compressed images" height="300"></a>
 
 
 &nbsp;  
@@ -29,9 +29,6 @@ The original and compressed images are shown below:
 **5.b)**  
 If we represent the image with these reduced 16 colors, each pixel can now be represented as a 4-bit color versus 24-bit. So we have a **Compression Factor** of approximately 1/6.
 
-
-
-&nbsp;  
 &nbsp;  
 ---
 
