@@ -12,36 +12,22 @@ To compress the image, we will use K-means to reduce the image to k=16 colors. M
 &nbsp; 
 &nbsp;  
 **5.a)**  
-...
-(a) [15 points] [Coding Problem] K-Means Compression Implementation. From the
-data directory, open an interactive Python prompt, and type
-from matplotlib.image import imread; import matplotlib.pyplot as plt;
-and run A = imread(’peppers-large.tiff’). Now, A is a “three dimensional matrix,”
-and A[:,:,0], A[:,:,1] and A[:,:,2] are 512x512 arrays that respectively contain the
-red, green, and blue values for each pixel. Enter plt.imshow(A); plt.show() to display
-the image.
-Since the large image has 262144 pixels and would take a while to cluster, we will instead run
-vector quantization on a smaller image. Repeat (a) with peppers-small.tiff. Treating
-each pixel’s (r, g, b) values as an element of R 3 , run K-means 2 with 16 clusters on the pixel
-data from this smaller image, iterating (preferably) to convergence, but in no case for less
-than 30 iterations. For initialization, set each cluster centroid to the (r, g, b)-values of a
-randomly chosen pixel in the image.
-Take the matrix A from peppers-large.tiff, and replace each pixel’s (r, g, b) values with
-the value of the closest cluster centroid. Display the new image, and compare it visually
-to the original image. Include in your write-up all your code and a copy of your
-compressed image.
+The [code for the question 5.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/ex5_a.ipynb) shows a **K-Means Compression Implementation**.  
 
-<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/xx/.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/img/xx.png" title="xx" alt="xx" height="125"></a>
+The compression treats each pixel’s (r, g, b) values as an element of *IR³*. It runs K-means with 16 clusters on the pixel data from the small image, iterating to convergence. For initialization, each cluster centroid are set to the (r, g, b)-values of a randomly chosen pixel in the image.  
 
+Then it takes the image matrix from *peppers-large.tiff*, and replace each pixel’s (r, g, b) values with the value of the closest cluster centroid.  
 
 &nbsp; 
+The original and compressed images are shown below:
+
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/5a_output.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/img/5a_output.png" title="original and compressed images" alt="original and compressed images" height="150"></a>
+
+
+&nbsp;  
 &nbsp;  
 **5.b)**  
-
-(b) [5 points] Compression Factor. If we represent the image with these reduced (16) colors,
-by (approximately) what factor have we compressed the image?
-Answer: Each pixel can now be represented as a 4-bit color versus 24-bit. So compression
-rate is approximately 1/6.
+If we represent the image with these reduced 16 colors, each pixel can now be represented as a 4-bit color versus 24-bit. So we have a **Compression Factor** of approximately 1/6.
 
 
 
