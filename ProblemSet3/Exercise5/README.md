@@ -18,7 +18,7 @@ The compression treats each pixel’s (r, g, b) values as an element of *IR³*. 
 
 Then it takes the image matrix from *peppers-large.tiff*, and replace each pixel’s (r, g, b) values with the value of the closest cluster centroid.  
 
-&nbsp; 
+&nbsp;  
 The original and compressed images are shown below:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/5a_output.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/img/5a_output.png" title="original and compressed images" alt="original and compressed images" height="200"></a>
