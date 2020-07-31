@@ -1,1 +1,4 @@
+<a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5a_ii.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/img/5a_ii.png" title="5_a_ii" alt="5_a_ii" width="800"></a>
+
+
 
