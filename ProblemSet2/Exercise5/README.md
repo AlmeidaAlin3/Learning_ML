@@ -22,13 +22,13 @@ where *θ^(i)* is the value of the parameters after the algorithm has seen the f
 The answer to the question 5.a describes how to apply the *kernel trick* to the perceptron to make it work in high-dimensional feature space **φ**, but without ever explicity computing **φ(x)**. Specifically:  
 
 **i)**    
-The [answer 5.a.i]() shows how implicitly represent the high-dimensional parameter vector **θ^(i)**, including how the initial value **θ^(0) = 0** is represented.  
+The [answer 5.a.i](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/ex5_a_i.md) shows how implicitly represent the high-dimensional parameter vector **θ^(i)**, including how the initial value **θ^(0) = 0** is represented.  
 
 **ii)**   
-The [answer 5.a.ii]() shows how efficiently make a prediction on a new input **x^(i+1)**.  
+The [answer 5.a.ii](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/ex5_a_ii.md) shows how efficiently make a prediction on a new input **x^(i+1)**.  
 
 **iii)**  
-The [answer 5.a.iii]() shows how to modify the update rule given to perform an update to **θ** on a new training example **( x^(i+1) , y^(i+1) )**.  
+The [answer 5.a.iii](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise5/ex5_a_iii.md) shows how to modify the update rule given to perform an update to **θ** on a new training example **( x^(i+1) , y^(i+1) )**.  
 
 &nbsp;  
 **5.b)**  
