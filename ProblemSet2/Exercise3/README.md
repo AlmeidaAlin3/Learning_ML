@@ -30,7 +30,7 @@ regularization (e.g *L2* or *L1* regularization).
 
 &nbsp;  
 **3.a)**  
-The [answer to the question 3.a]() shows that, if we assume that **p(θ) = p(θ|x)**, then *θMAP* is:
+The [answer to the question 3.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/ex3_a.md) shows that, if we assume that **p(θ) = p(θ|x)**, then *θMAP* is:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_marg_indep.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_marg_indep.png" title="MAP for theta and x marginally independent" alt="MAP for theta and x marginally independent" height="24"></a> 
 
@@ -40,7 +40,7 @@ The assumption that *p(θ) = p(θ|x)* will be valid for models such as linear re
 **3.b)**  
 Recall that *L2* regularization penalizes the *L2* norm of the parameters while minimizing the loss i.e., negative log likelihood in case of probabilistic models. 
 
-The [answer to the question 3.b]() shows that MAP estimation with a zero-mean Gaussian prior over *θ*, specifically **θ ∼ Normal(0, η².I)**, is equivalent to applying *L2* regularization with MLE estimation. That is:
+The [answer to the question 3.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/ex3_b.md) shows that MAP estimation with a zero-mean Gaussian prior over *θ*, specifically **θ ∼ Normal(0, η².I)**, is equivalent to applying *L2* regularization with MLE estimation. That is:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_reg1.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_reg1.png" title="MAP L2" alt="MAP L2" height="35"></a>  
 
@@ -51,7 +51,7 @@ where **λ = 1/(2η²)**:
 &nbsp;  
 **3.c)**  
 Now consider a specific instance, a linear regression model given by **y=(θ.T).x + err**, where **err ~ Normal(0, σ²)**. Like before, assume a Gaussian prior on this model such that *θ ∼ Normal(0, η².I)*.  
-The [answer to the question 3.c]() came up with the closed form expression for *θMAP*:
+The [answer to the question 3.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/ex3_c.md) came up with the closed form expression for *θMAP*:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_closed_form.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_closed_form.png" title="MAP closed form" alt="MAP closed form" height="55"></a> 
 
@@ -62,7 +62,7 @@ Next consider the Laplace distribution, whose density is given by:
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/Laplace_density.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/Laplace_density.png" title="Laplace_density" alt="Laplace_density" height="55"></a>  
 
 and a linear regression model given by **y=(θ.T).x + err**, where **err ~ Normal(0, σ²)**. Assume a Laplace prior on this model where **θ ∼ Laplace(0, b.I)**.
-The [answer to the question 3.d]() shows that *θMAP* in this case is equivalent to the solution of linear regression with *L1* regularization:
+The [answer to the question 3.d](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/ex3_d.md) shows that *θMAP* in this case is equivalent to the solution of linear regression with *L1* regularization:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_L1.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet2/Exercise3/img/MAP_L1.png" title="MAP L1" alt="MAP L1" height="48"></a>  
 
