@@ -30,7 +30,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 5:** K-means for compression](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise5/README.md)         
 
 ### **Problem Set #4: EM, DL, & RL**   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 1:** Neural Networks: MNIST image classification](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet4/Exercise1/README.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 1:** Neural Networks: MNIST image classification 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 2:** Off Policy Evaluation And Causal Inference  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 3:** PCA    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Exercise 4:** Independent Components Analysis      
