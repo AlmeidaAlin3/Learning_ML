@@ -59,7 +59,7 @@ The **h2** function:
 
 &nbsp;  
 
-Combining the equations, as shown in the [answer to the question 1.a](), we get the equation for gradient descent update:
+Combining the equations, as shown in the [answer to the question 1.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/ex1_a.md), we get the equation for gradient descent update:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/grad.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/grad.png" title="equation for gradient descent update" alt="equation for gradient descent update" height="60"></a>
 
