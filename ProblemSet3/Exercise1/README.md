@@ -70,7 +70,7 @@ Now, suppose instead of using the sigmoid function for the activation function f
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/step_function.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/img/step_function.png" title="step function" alt="step function" height="61"></a>
   
-As verified in the [answer to the question 2.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/ex2_a.md), it is possible to have a set of weights that allow the neural network to classify the dataset with 100% accuracy. Three lines can be used to determine the decision boundary:  
+As verified in the [answer to the question 1.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise1/ex1_b.md), it is possible to have a set of weights that allow the neural network to classify the dataset with 100% accuracy. Three lines can be used to determine the decision boundary:  
 **x1 = 0.5**   
 **x2 = 0.5**  
 **x1 + x2 = 4**  
