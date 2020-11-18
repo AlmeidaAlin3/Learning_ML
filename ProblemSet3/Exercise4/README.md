@@ -28,7 +28,7 @@ We can derive the EM steps for the semi-supervised setting using the same approa
 
 &nbsp;  
 **4.a)**  
-The [answer to the question 4.a]() shows that the algorithm eventually converges. In order to prove that, it is sufficient to show that our semi-supervised objective *ℓsemi-sup(θ)* monotonically increases with each iteration of E and M step, that is: 
+The [answer to the question 4.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/ex4_a.md) shows that the algorithm eventually converges. In order to prove that, it is sufficient to show that our semi-supervised objective *ℓsemi-sup(θ)* monotonically increases with each iteration of E and M step, that is: 
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/convergence.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/img/convergence.png" title="convergence" alt="convergence" height="28"></a>
 
@@ -45,12 +45,12 @@ The traditional EM algorithm is designed to take only the **m** unlabelled examp
 &nbsp;  
 &nbsp;  
 **4.b)**  
-In the E-step, we need to re-estimate *z^(i)* for *i = 1, ..., m*. The [answer to the question 4.b]() shows the **semi-supervised E-Step** expression to re-estimate all the stated latent variables.
+In the E-step, we need to re-estimate *z^(i)* for *i = 1, ..., m*. The [answer to the question 4.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/ex4_b.md) shows the **semi-supervised E-Step** expression to re-estimate all the stated latent variables.
 
 &nbsp;  
 &nbsp;  
 **4.c)**  
-The [answer to the question 4.c]() derives closed form expressions for the parameter update rules for *μ^(t+1)*, *Σ^(t+1)* and *φ^(t+1)* based on the semi-supervised objective for the **semi-supervised M-Step**.
+The [answer to the question 4.c](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise4/ex4_c.md) derives closed form expressions for the parameter update rules for *μ^(t+1)*, *Σ^(t+1)* and *φ^(t+1)* based on the semi-supervised objective for the **semi-supervised M-Step**.
 
 &nbsp;  
 &nbsp;  
