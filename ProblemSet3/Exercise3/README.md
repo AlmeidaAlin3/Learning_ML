@@ -47,7 +47,7 @@ Recall that:
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_g(y).png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_g(y).png" title="E_g(y)" alt="E_g(y)" height="32"></a>
 
 &nbsp;  
-Using this fact, the [answer to the question 3.a]() shows that **the expected value of the score is 0**, that is:
+Using this fact, the [answer to the question 3.a](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/ex3_a.md) shows that **the expected value of the score is 0**, that is:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_score.png.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/E_score.png" title="Score Expected Value" alt="Score Expected Value" height="36"></a>
 
@@ -62,7 +62,7 @@ Let us now introduce a quantity known as the **Fisher information**. It is defin
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher.png" title="Fisher information" alt="Fisher information" height="30"></a>
 
-Intuitively, the Fisher information represents the amount of information that a random variable *Y* carries about a parameter *θ* of interest. When the parameter of interest is a vector (as in our case, since *θ* ∈ IRn ), this information becomes a matrix. The [answer to the question 3.b]() shows that Fisher information can equivalently be given by:
+Intuitively, the Fisher information represents the amount of information that a random variable *Y* carries about a parameter *θ* of interest. When the parameter of interest is a vector (as in our case, since *θ* ∈ IRn ), this information becomes a matrix. The [answer to the question 3.b](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/ex3_b.md) shows that Fisher information can equivalently be given by:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher_E.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/fisher_E.png" title="Fisher information" alt="Fisher information" height="31"></a>
 
@@ -89,7 +89,7 @@ calculate *DKL* between **p(y; θ)** and **p(y; θ+d)**, where **d** *∈ IRn* i
 Eventually **d** will be the **natural gradient** update we will add to **θ**. 
 
 To approximate the KL-divergence with Fisher Information, we will start with the Taylor Series expansion of *DKL* and see that the Fisher
-Information pops up in the expansion. The [answer to the question 3.d]() shows that:
+Information pops up in the expansion. The [answer to the question 3.d](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/ex3_d.md) shows that:
 
 <a href="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/DKL_fisher.png"><img src="https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet3/Exercise3/img/DKL_fisher.png" title="approximate the KL-divergence with Fisher Information" alt="Approximate the KL-divergence with Fisher Information" height="45"></a>  
 
