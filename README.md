@@ -1,7 +1,12 @@
 <a href="https://i.dlpng.com/static/png/498606_preview.png"><img src="https://i.dlpng.com/static/png/498606_preview.png" title="Stanford" alt="Stanford" height="100"></a>
 
 # Stanford - Machine Learning  
-  
+
+❤️ *The Stanford's Machine Learning Course gave me a solid mathematical foundation for Machine Learning! 
+Here are my problem set solutions for the course.*  
+
+--
+
 ### **Problem Set #0: Linear Algebra and Multivariable Calculus**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 1:** Gradients and Hessians](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise1/README.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [**Exercise 2:** Positive definite matrices](https://github.com/AlmeidaAlin3/MachineLearning/blob/master/ProblemSet0/Exercise2/README.md)    
