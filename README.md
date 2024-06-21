@@ -1,5 +1,3 @@
-<a href="https://i.dlpng.com/static/png/498606_preview.png"><img src="https://i.dlpng.com/static/png/498606_preview.png" title="Stanford" alt="Stanford" height="100"></a>
-
 # Stanford - Machine Learning  
 
 ❤️ *The Stanford's Machine Learning Course gave me a solid mathematical foundation for Machine Learning! 
